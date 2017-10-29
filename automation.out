@@ -1,0 +1,14 @@
+2017-10-28 22:59:14 INFO  VerifyloginWithInvalidCredentails:24 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2017-10-28 22:59:16 INFO  HomePage:39 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0bca2e600b0adb89b53fb0bdb9ce9853)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-10-28 22:59:16 INFO  HomePage:41 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (0bca2e600b0adb89b53fb0bdb9ce9853)] -> xpath: .//*[@id='email']]
+2017-10-28 22:59:16 INFO  HomePage:43 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (0bca2e600b0adb89b53fb0bdb9ce9853)] -> xpath: .//*[@id='passwd']]
+2017-10-28 22:59:16 INFO  HomePage:45 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (0bca2e600b0adb89b53fb0bdb9ce9853)] -> xpath: .//*[@id='SubmitLogin']]
+2017-10-28 22:59:16 INFO  HomePage:49 - Error message is : Invalid email address.
+2017-10-28 22:59:16 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2017-10-28 23:22:57 INFO  VerifyloginWithInvalidCredentails:24 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2017-10-28 23:22:57 INFO  HomePage:39 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (2b25329e82799b503f407881406d695d)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-10-28 23:22:58 INFO  HomePage:41 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (2b25329e82799b503f407881406d695d)] -> xpath: .//*[@id='email']]
+2017-10-28 23:22:58 INFO  HomePage:43 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (2b25329e82799b503f407881406d695d)] -> xpath: .//*[@id='passwd']]
+2017-10-28 23:23:03 INFO  HomePage:45 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (2b25329e82799b503f407881406d695d)] -> xpath: .//*[@id='SubmitLogin']]
+2017-10-28 23:23:03 INFO  HomePage:49 - Error message is : Invalid email address.
+2017-10-28 23:23:03 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10356" started-at="2017-10-29T03:22:53Z" finished-at="2017-10-29T03:23:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10356" started-at="2017-10-29T03:22:53Z" finished-at="2017-10-29T03:23:04Z">
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="setup" is-config="true" duration-ms="3331" started-at="2017-10-28T23:22:53Z" finished-at="2017-10-28T23:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentails()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="verifyLoginWithInvalidCredentails" duration-ms="6929" started-at="2017-10-28T23:22:57Z" finished-at="2017-10-28T23:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentails -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="end" is-config="true" duration-ms="86" started-at="2017-10-28T23:23:03Z" finished-at="2017-10-28T23:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
