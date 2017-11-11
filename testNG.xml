@@ -7,4 +7,9 @@
 <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails"></class>
 </classes>
 </test>
+<test name="verifyLoginWithValidCredentails">
+<classes>
+<class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails"></class>
+</classes>
+</test>
 </suite>

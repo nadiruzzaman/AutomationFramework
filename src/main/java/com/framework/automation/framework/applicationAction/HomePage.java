@@ -29,12 +29,15 @@ public class HomePage {
 	@FindBy(xpath=".//*[@id='center_column']/div[1]/ol/li")
 	WebElement authenticationFailed;
 	
+	@FindBy(xpath=".//*[@id='header']/div[2]/div/div/nav/div[1]/a")
+	WebElement authenticationValid;
+	
 	public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 		
 	}
 
-	public void logInToApplication( String password,String emailAddress){
+	public void logInToApplication(String emailAddress, String password){
 		signIn.click();
 		log.info("Click signIn and object is : "+signIn.toString());
 		logInemailAddress.sendKeys(emailAddress);
@@ -49,5 +52,11 @@ public class HomePage {
 log.info("Error message is : "+authenticationFailed.getText());
 		return authenticationFailed.getText();
 	}
+	
+	public String getValidLogInText(){
+		log.info("Valid message is : "+authenticationValid.getText());
+				return authenticationValid.getText();
+			}
+	
 	
 }
