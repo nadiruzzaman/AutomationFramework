@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45534" started-at="2017-11-11T03:45:15Z" finished-at="2017-11-11T03:46:00Z">
+  <suite name="Regression Suite" duration-ms="45600" started-at="2017-11-11T04:10:03Z" finished-at="2017-11-11T04:10:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45534" started-at="2017-11-11T03:45:15Z" finished-at="2017-11-11T03:46:00Z">
+    <test name="verifyLoginWithInvalidCredentails" duration-ms="45600" started-at="2017-11-11T04:10:03Z" finished-at="2017-11-11T04:10:48Z">
       <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="setup" is-config="true" duration-ms="0" started-at="2017-11-10T22:45:15Z" finished-at="2017-11-10T22:45:15Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="setup" is-config="true" duration-ms="0" started-at="2017-11-10T23:10:03Z" finished-at="2017-11-10T23:10:03Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Timed out waiting 45 seconds for Firefox to start.
@@ -53,7 +53,7 @@ Driver info: driver.version: FirefoxDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:34324/hub/status] to be available after 45005 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:7871/hub/status] to be available after 45003 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:110)
 	... 32 more
@@ -68,15 +68,15 @@ Caused by: java.util.concurrent.TimeoutException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyLoginWithInvalidCredentails()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="verifyLoginWithInvalidCredentails" duration-ms="1" started-at="2017-11-10T22:46:00Z" finished-at="2017-11-10T22:46:00Z">
+        <test-method status="SKIP" signature="verifyLoginWithInvalidCredentails()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="verifyLoginWithInvalidCredentails" duration-ms="2" started-at="2017-11-10T23:10:48Z" finished-at="2017-11-10T23:10:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentails -->
-        <test-method status="SKIP" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="end" is-config="true" duration-ms="0" started-at="2017-11-10T22:46:00Z" finished-at="2017-11-10T22:46:00Z">
+        <test-method status="SKIP" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="end" is-config="true" duration-ms="0" started-at="2017-11-10T23:10:48Z" finished-at="2017-11-10T23:10:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- verifyLoginWithInvalidCredentails -->
+  </suite> <!-- Regression Suite -->
 </testng-results>

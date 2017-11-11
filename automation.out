@@ -19,3 +19,10 @@
 2017-11-10 11:45:12 INFO  HomePage:45 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (b6b78126435ecfe1bd944901cd5836af)] -> xpath: .//*[@id='SubmitLogin']]
 2017-11-10 11:45:12 INFO  HomePage:49 - Error message is : Invalid email address.
 2017-11-10 11:45:12 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2017-11-10 23:10:42 INFO  VerifyloginWithInvalidCredentails:24 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2017-11-10 23:10:43 INFO  HomePage:39 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (20fcd8b1efc6cdbd4ca4693b5d82459e)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-10 23:10:43 INFO  HomePage:41 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (20fcd8b1efc6cdbd4ca4693b5d82459e)] -> xpath: .//*[@id='email']]
+2017-11-10 23:10:43 INFO  HomePage:43 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (20fcd8b1efc6cdbd4ca4693b5d82459e)] -> xpath: .//*[@id='passwd']]
+2017-11-10 23:10:44 INFO  HomePage:45 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (20fcd8b1efc6cdbd4ca4693b5d82459e)] -> xpath: .//*[@id='SubmitLogin']]
+2017-11-10 23:10:44 INFO  HomePage:49 - Error message is : Invalid email address.
+2017-11-10 23:10:44 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
