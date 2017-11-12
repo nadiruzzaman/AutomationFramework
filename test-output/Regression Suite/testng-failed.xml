@@ -11,4 +11,34 @@
       <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails"/>
     </classes>
   </test> <!-- verifyLoginWithValidCredentails -->
+  <test name="verifyLoginWithInvalidCredentails(failed)">
+    <classes>
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithValidCredentails -->
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyLoginWithInvalidCredentails"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
+    </classes>
+  </test> <!-- verifyLoginWithInvalidCredentails(failed) -->
+  <test name="verifyLoginWithValidCredentails(failed)">
+    <classes>
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyLoginWithValidCredentails"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithValidCredentails -->
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
+    </classes>
+  </test> <!-- verifyLoginWithValidCredentails(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

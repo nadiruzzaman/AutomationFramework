@@ -35,13 +35,15 @@ public class TestBase {
 			service.start();
 			log.info("creating object of  " + browser);
 			driver = new RemoteWebDriver(service.getUrl(), DesiredCapabilities.chrome());
+			
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.firefox.marionette", System.getProperty("user.dir") + "/driver/deckodriver");
+			System.setProperty("webdriver.firefox.marionette", System.getProperty("user.dir") + "/driver/geckodriver");
+			
 			log.info("creating object of  " + browser);
 			driver=new FirefoxDriver();
 
 		}
-
+		
 	}
 
 	public void getUrl(String url) {

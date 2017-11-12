@@ -96,3 +96,39 @@
 2017-11-11 11:22:49 INFO  HomePage:48 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='SubmitLogin']'
 2017-11-11 11:22:49 INFO  HomePage:57 - Valid message is : k u
 2017-11-11 11:22:49 INFO  VerifyloginWithValidCredentails:28 - ***********Finish verifyLoginWithValidCredentails Test************
+2017-11-11 12:34:28 INFO  VerifyloginWithInvalidCredentails:24 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2017-11-11 12:34:29 INFO  HomePage:42 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (c6e7dcc847ed79a6bce92f6005d30543)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-11 12:34:29 INFO  HomePage:44 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (c6e7dcc847ed79a6bce92f6005d30543)] -> xpath: .//*[@id='email']]
+2017-11-11 12:34:29 INFO  HomePage:46 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (c6e7dcc847ed79a6bce92f6005d30543)] -> xpath: .//*[@id='passwd']]
+2017-11-11 12:34:30 INFO  HomePage:48 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (c6e7dcc847ed79a6bce92f6005d30543)] -> xpath: .//*[@id='SubmitLogin']]
+2017-11-11 12:34:30 INFO  HomePage:52 - Error message is : Authentication failed.
+2017-11-11 12:34:30 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2017-11-11 12:34:31 INFO  TestBase:36 - creating object of  chrome
+2017-11-11 12:34:31 INFO  TestBase:49 - navigating to http://automationpractice.com/index.php
+2017-11-11 12:34:33 INFO  VerifyloginWithValidCredentails:24 - ***********Starting verifyLoginWithValidCredentails Test************
+2017-11-11 12:34:34 INFO  HomePage:42 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e371654a119b2f9490608a39c371e4a0)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-11 12:34:35 INFO  HomePage:44 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (e371654a119b2f9490608a39c371e4a0)] -> xpath: .//*[@id='email']]
+2017-11-11 12:34:35 INFO  HomePage:46 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (e371654a119b2f9490608a39c371e4a0)] -> xpath: .//*[@id='passwd']]
+2017-11-11 12:35:36 INFO  HomePage:48 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='SubmitLogin']'
+2017-11-11 12:35:36 INFO  HomePage:57 - Valid message is : k u
+2017-11-11 12:35:36 INFO  VerifyloginWithValidCredentails:28 - ***********Finish verifyLoginWithValidCredentails Test************
+2017-11-11 12:42:13 INFO  VerifyloginWithInvalidCredentails:24 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2017-11-11 12:42:14 INFO  HomePage:42 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ebc1954b0f9e489d203211f02d79f80c)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-11 12:42:14 INFO  HomePage:44 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (ebc1954b0f9e489d203211f02d79f80c)] -> xpath: .//*[@id='email']]
+2017-11-11 12:42:14 INFO  HomePage:46 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (ebc1954b0f9e489d203211f02d79f80c)] -> xpath: .//*[@id='passwd']]
+2017-11-11 12:42:15 INFO  HomePage:48 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (ebc1954b0f9e489d203211f02d79f80c)] -> xpath: .//*[@id='SubmitLogin']]
+2017-11-11 12:42:15 INFO  HomePage:52 - Error message is : Authentication failed.
+2017-11-11 12:42:15 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2017-11-11 12:42:16 INFO  TestBase:36 - creating object of  chrome
+2017-11-11 12:42:16 INFO  TestBase:49 - navigating to http://automationpractice.com/index.php
+2017-11-11 12:42:19 INFO  VerifyloginWithValidCredentails:24 - ***********Starting verifyLoginWithValidCredentails Test************
+2017-11-11 12:42:20 INFO  HomePage:42 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (fe2d23c0f2c570e29fe0985720d5db7d)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-11 12:42:20 INFO  HomePage:44 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (fe2d23c0f2c570e29fe0985720d5db7d)] -> xpath: .//*[@id='email']]
+2017-11-11 12:42:20 INFO  HomePage:46 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (fe2d23c0f2c570e29fe0985720d5db7d)] -> xpath: .//*[@id='passwd']]
+2017-11-11 12:43:21 INFO  HomePage:48 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='SubmitLogin']'
+2017-11-11 12:43:21 INFO  HomePage:57 - Valid message is : k u
+2017-11-11 12:43:21 INFO  VerifyloginWithValidCredentails:28 - ***********Finish verifyLoginWithValidCredentails Test************
+2017-11-11 20:10:49 INFO  VerifyloginWithInvalidCredentails:24 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2017-11-11 20:10:50 INFO  HomePage:42 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (60acf3d2534f5bba5b52cd2ef6ec347d)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-11 20:10:50 INFO  HomePage:44 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (60acf3d2534f5bba5b52cd2ef6ec347d)] -> xpath: .//*[@id='email']]
+2017-11-11 20:10:50 INFO  HomePage:46 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (60acf3d2534f5bba5b52cd2ef6ec347d)] -> xpath: .//*[@id='passwd']]
