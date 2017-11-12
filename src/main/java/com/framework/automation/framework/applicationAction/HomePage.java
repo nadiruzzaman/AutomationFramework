@@ -32,6 +32,20 @@ public class HomePage {
 	@FindBy(xpath=".//*[@id='header']/div[2]/div/div/nav/div[1]/a")
 	WebElement authenticationValid;
 	
+	@FindBy(xpath=".//*[@id='header']/div[2]/div/div/nav/div[1]/a")
+	WebElement SignIn;
+	
+	@FindBy(xpath=".//*[@id='email_create']")
+	WebElement EmailAddress;
+	
+	@FindBy(xpath=".//*[@id='SubmitCreate']")
+	WebElement SubmitCreateButton;
+	
+	@FindBy(xpath=".//*[@id='create_account_error']/ol/li")
+	WebElement InValidEmailAddress;
+	
+	
+	
 	public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 		
@@ -47,7 +61,14 @@ public class HomePage {
 		submitButton.click();
 		log.info("Click submitButton and object is : "+submitButton.toString());
 	}
-	
+	public void inCorrectCreateAccount(String emailAddress){
+		signIn.click();
+		log.info("Click signIn and object is : "+signIn.toString());
+		EmailAddress.sendKeys(emailAddress);
+		log.info("Enterd EmailAddress is : "+EmailAddress.toString());
+		SubmitCreateButton.click();
+		log.info("Click submitCreateButton and object is : "+SubmitCreateButton.toString());
+	}
 	public String getInvalidLogInText(){
 log.info("Error message is : "+authenticationFailed.getText());
 		return authenticationFailed.getText();
@@ -57,6 +78,9 @@ log.info("Error message is : "+authenticationFailed.getText());
 		log.info("Valid message is : "+authenticationValid.getText());
 				return authenticationValid.getText();
 			}
-	
+	public String InCorrectCreateAnAccount(){
+		log.info("Valid message is : "+InValidEmailAddress.getText());
+				return InValidEmailAddress.getText();
+			}
 	
 }
