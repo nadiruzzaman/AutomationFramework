@@ -27,6 +27,15 @@ public class VerifyloginWithInvalidCredentails extends TestBase{
     Assert.assertEquals(homepage.getInvalidLogInText(),"Authentication failed.");
     log.info("***********Finish VerifyloginWithInvalidCredentails Test************");
 	}
+ 
+ @Test
+	public void test(){
+	 log.info("***********Starting VerifyloginWithInvalidCredentails Test************");
+	 homepage = new HomePage(driver);
+	 homepage.logInToApplication("test@gmail.com", "test123");
+ Assert.assertEquals(homepage.getInvalidLogInText(),"Authentication failed.");
+ log.info("***********Finish VerifyloginWithInvalidCredentails Test************");
+	}
 	
 	@AfterTest 
 	public void end(){
