@@ -27,6 +27,16 @@ public class VerifyloginWithValidCredentails extends TestBase{
     Assert.assertEquals(homepage.getValidLogInText(),"k u");
     log.info("***********Finish verifyLoginWithValidCredentails Test************");
 	}
+ 
+ 
+ @Test
+	public void verifyLoginWithValidCredentail(){
+	 log.info("***********Starting verifyLoginWithValidCredentails Test************");
+	 homepage = new HomePage(driver);
+	 homepage.logInToApplication("kagim2005@gmail.com", "uddin");
+    Assert.assertEquals(homepage.getValidLogInText(),"k u");
+    log.info("***********Finish verifyLoginWithValidCredentails Test************");
+	}
 	
 	@AfterTest 
 	public void end(){

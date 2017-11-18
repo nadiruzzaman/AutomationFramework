@@ -15,6 +15,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class TestBase {
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	public WebDriver driver;
+	public WebDriver driver1;
 	private static ChromeDriverService service;
 	String url = "http://automationpractice.com/index.php";
 	String browser = "chrome";
