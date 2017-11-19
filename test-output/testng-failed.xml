@@ -3,11 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
-        <methods>
-          <include name="verifyInvalidEmailAddress"/>
-        </methods>
-      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
+      <class name="com.framework.automation.framework.homePage.WishListsPage"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.framework.automation.framework.homePage.WishListsPage">
+        <methods>
+          <include name="verifyNewWishList"/>
+          <include name="setup"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.WishListsPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

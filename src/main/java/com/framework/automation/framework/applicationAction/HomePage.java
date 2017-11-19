@@ -32,9 +32,7 @@ public class HomePage {
 	@FindBy(xpath=".//*[@id='header']/div[2]/div/div/nav/div[1]/a")
 	WebElement authenticationValid;
 	
-	@FindBy(xpath=".//*[@id='header']/div[2]/div/div/nav/div[1]/a")
-	WebElement SignIn;
-	
+
 	@FindBy(xpath=".//*[@id='email_create']")
 	WebElement EmailAddress;
 	
@@ -43,6 +41,18 @@ public class HomePage {
 	
 	@FindBy(xpath=".//*[@id='create_account_error']/ol/li")
 	WebElement InValidEmailAddress;
+	
+	@FindBy(xpath=".//*[@id='contact-link']/a")
+	WebElement ClickContactusButton;	
+	
+	@FindBy(xpath=".//*[@id='center_column']/h1")
+	WebElement CustomerServiceContactUs;	
+	
+	@FindBy(xpath=".//*[@id='center_column']/div/div[2]/ul/li/a/span")
+	WebElement ClickMywishlistsButton;
+	
+	@FindBy(xpath=".//*[@id='form_wishlist']/fieldset/h3")
+	WebElement NewWishlist;
 	
 	
 	
@@ -69,6 +79,15 @@ public class HomePage {
 		SubmitCreateButton.click();
 		log.info("Click submitCreateButton and object is : "+SubmitCreateButton.toString());
 	}
+	
+	public void contactUsbutton(){
+		ClickContactusButton.click();
+		log.info("ClickContactusButton object is : "+ClickContactusButton.toString());
+	}
+	public String getCustomerServiceContactUs(){
+		log.info("Valid messge is:"+CustomerServiceContactUs.getText());
+		return CustomerServiceContactUs.getText();
+	}
 	public String getInvalidLogInText(){
 log.info("Error message is : "+authenticationFailed.getText());
 		return authenticationFailed.getText();
@@ -83,4 +102,5 @@ log.info("Error message is : "+authenticationFailed.getText());
 				return InValidEmailAddress.getText();
 			}
 	
+			
 }

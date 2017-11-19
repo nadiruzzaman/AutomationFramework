@@ -18,6 +18,8 @@ public class VerifyloginWithValidCredentails extends TestBase{
 	@BeforeTest
 	public void setup() throws IOException{
 		init();	
+		//By init method we opened browser
+		//By extend method we made relation with testBase class
 	}
  @Test
 	public void verifyLoginWithValidCredentails(){
@@ -27,7 +29,14 @@ public class VerifyloginWithValidCredentails extends TestBase{
     Assert.assertEquals(homepage.getValidLogInText(),"k u");
     log.info("***********Finish verifyLoginWithValidCredentails Test************");
 	}
-	
+ @Test
+	public void getCustomerServiceContactUs(){
+	 log.info("*********** CustomerServiceContactUs************");
+	 homepage = new HomePage(driver);
+	 homepage.contactUsbutton();
+    Assert.assertEquals(homepage.getCustomerServiceContactUs(), "CUSTOMER SERVICE - CONTACT US");
+    log.info("***********Finish  CustomerServiceContactUs************");
+	}
 	@AfterTest 
 	public void end(){
 	driver.close();
