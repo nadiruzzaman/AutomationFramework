@@ -27,7 +27,23 @@ public class VerifyloginWithValidCredentails extends TestBase{
     Assert.assertEquals(homepage.getValidLogInText(),"k u");
     log.info("***********Finish verifyLoginWithValidCredentails Test************");
 	}
-	
+ @Test
+ 	public void vrifiedHomePageshoppingChartButtonDisplayed(){
+ 	 log.info("***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************");
+ 	 homepage = new HomePage(driver);
+  homepage.vrifiedHomePageshoppingchart();
+  log.info("***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************");
+ }
+@Test
+public void validEmailforCreateAccount(){
+ log.info("***********Starting validEmailforCreateAccount Test************");
+ homepage = new HomePage(driver);
+ homepage.correctCreateAccount("automation@gmil.com");
+ Assert.assertEquals(homepage.validCreateAccount(),"AUTHENTICATION");
+log.info("***********Finish validEmailforCreateAccount Test************");
+}
+
+
 	@AfterTest 
 	public void end(){
 	driver.close();
