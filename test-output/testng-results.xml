@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9992" started-at="2017-11-12T14:12:00Z" finished-at="2017-11-12T14:12:10Z">
+  <suite name="Default suite" duration-ms="66607" started-at="2017-11-25T17:53:26Z" finished-at="2017-11-25T17:54:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9992" started-at="2017-11-12T14:12:00Z" finished-at="2017-11-12T14:12:10Z">
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@7cd62f43]" name="setup" is-config="true" duration-ms="6992" started-at="2017-11-12T09:12:00Z" finished-at="2017-11-12T09:12:07Z">
+    <test name="Default test" duration-ms="66607" started-at="2017-11-25T17:53:26Z" finished-at="2017-11-25T17:54:33Z">
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithValidCredentails@604ed9f0]" name="setup" is-config="true" duration-ms="3188" started-at="2017-11-25T12:53:26Z" finished-at="2017-11-25T12:53:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validEmailforCreateAccount()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@7cd62f43]" name="validEmailforCreateAccount" duration-ms="2859" started-at="2017-11-12T09:12:07Z" finished-at="2017-11-12T09:12:10Z">
+        <test-method status="PASS" signature="validEmailforCreateAccount()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithValidCredentails@604ed9f0]" name="validEmailforCreateAccount" duration-ms="1207" started-at="2017-11-25T12:53:29Z" finished-at="2017-11-25T12:53:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validEmailforCreateAccount -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@7cd62f43]" name="end" is-config="true" duration-ms="132" started-at="2017-11-12T09:12:10Z" finished-at="2017-11-12T09:12:10Z">
+        <test-method status="PASS" signature="verifyLoginWithValidCredentails()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithValidCredentails@604ed9f0]" name="verifyLoginWithValidCredentails" duration-ms="62047" started-at="2017-11-25T12:53:31Z" finished-at="2017-11-25T12:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentails -->
+        <test-method status="PASS" signature="vrifiedHomePageshoppingChartButtonDisplayed()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithValidCredentails@604ed9f0]" name="vrifiedHomePageshoppingChartButtonDisplayed" duration-ms="40" started-at="2017-11-25T12:54:33Z" finished-at="2017-11-25T12:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vrifiedHomePageshoppingChartButtonDisplayed -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithValidCredentails@604ed9f0]" name="end" is-config="true" duration-ms="113" started-at="2017-11-25T12:54:33Z" finished-at="2017-11-25T12:54:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithValidCredentails -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
