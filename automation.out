@@ -339,9 +339,30 @@
 2017-11-25 20:06:44 INFO  HomePage:48 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (7d6d6abb59c56889652e92491002b04f)] -> id: SubmitLogin]
 2017-11-25 20:06:44 INFO  HomePage:65 - Error message is : Authentication failed.
 2017-11-25 20:06:44 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
+<<<<<<< HEAD
 2017-12-17 12:12:56 INFO  HomePageDisplayVerification:21 - ***********Verified WomendressButton Test************
 2017-12-17 12:12:57 INFO  HomePage:85 - [[RemoteWebDriver: chrome on MAC (dd584954c9397dfc46509e2dd4277c38)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-17 12:12:57 INFO  HomePageDisplayVerification:24 - ***********Finish WomendressButton Test************
 2017-12-17 12:16:50 INFO  HomePageDisplayVerification:21 - ***********Verified WomendressButton Test************
 2017-12-17 12:16:51 INFO  HomePage:87 - [[RemoteWebDriver: chrome on MAC (05d793c91709ffb083c1acc2cf3732c9)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-17 12:16:51 INFO  HomePageDisplayVerification:24 - ***********Finish WomendressButton Test************
+=======
+2017-12-17 10:45:25 INFO  HomePageDisplayVerification:22 - ***********HomePageDisplayVerificationTest************
+2017-12-17 10:45:25 INFO  HomePage:85 - [[RemoteWebDriver: chrome on MAC (5a5f343f91c7bd053f63151dd28c325e)] -> xpath: .//div['@class="icon-home"']/a/i]
+2017-12-17 10:45:25 INFO  HomePageDisplayVerification:26 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-17 10:49:14 INFO  HomePageDisplayVerification:22 - ***********HomePageDisplayVerificationTest************
+2017-12-17 10:49:14 INFO  HomePage:85 - [[RemoteWebDriver: chrome on MAC (f9cb54fec794ae652bdd46641d9d2f3e)] -> xpath: .//div['@class="icon-home"']/a/i]
+2017-12-17 10:49:14 INFO  HomePageDisplayVerification:26 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-17 10:52:45 INFO  HomePageDisplayVerification:22 - ***********HomePageDisplayVerificationTest************
+2017-12-17 10:52:45 INFO  HomePage:87 - [[RemoteWebDriver: chrome on MAC (cea03c9bc517b78243e9e8efddebbd52)] -> xpath: .//div['@class="icon-home"']/a/i]
+2017-12-17 10:52:45 INFO  HomePageDisplayVerification:26 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-17 11:13:09 INFO  HomePageDisplayVerification:22 - ***********HomePageDisplayVerificationTest************
+2017-12-17 11:13:10 INFO  HomePage:88 - [[RemoteWebDriver: chrome on MAC (91eaf4ddf47d77ee267d992f45b743fe)] -> xpath: .//div['@class="icon-home"']/a/i]
+2017-12-17 11:13:10 INFO  HomePageDisplayVerification:26 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-17 11:25:04 INFO  HomePageDisplayVerification:22 - ***********HomePageDisplayVerificationTest************
+2017-12-17 11:25:04 INFO  HomePage:88 - [[RemoteWebDriver: chrome on MAC (acac092ee3d10ba9424a13f110f8d7dc)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-17 11:25:04 INFO  HomePageDisplayVerification:25 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-17 11:27:01 INFO  HomePageDisplayVerification:22 - ***********HomePageDisplayVerificationTest************
+2017-12-17 11:27:02 INFO  HomePage:90 - [[RemoteWebDriver: chrome on MAC (21d4a60e05c91e13552d76823162256d)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-17 11:27:02 INFO  HomePageDisplayVerification:25 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+>>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c
