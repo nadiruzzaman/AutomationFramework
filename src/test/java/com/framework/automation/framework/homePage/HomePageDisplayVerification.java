@@ -17,7 +17,7 @@ public class HomePageDisplayVerification extends TestBase {
 		init();	
 	}
 	@Test
- 	public void WomendressButton(){
+ 	public void WomenDressButton(){
  	 log.info("***********Verified WomendressButton Test************");
  	 homepage = new HomePage(driver);
   homepage.VerifiedWomenButton();
