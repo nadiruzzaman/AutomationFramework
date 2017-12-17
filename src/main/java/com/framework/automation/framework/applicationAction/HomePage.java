@@ -33,11 +33,17 @@ public class HomePage {
 	
 	@FindBy(xpath=".//h1['Create an account']") WebElement validCreatedAccount;
 	
+<<<<<<< HEAD
+	@FindBy(xpath=".//*[@id='block_top_menu']/ul/li['Dresses']/a[@title='Dresses']") WebElement dressButtonFromHomepage;
+	
+	@FindBy(xpath=".//*[@id='columns']/div[@class=\"breadcrumb clearfix\"]") WebElement WomenButton;
+=======
 	@FindBy(xpath=".//*[@id='contact-link']/a['@ title=Contact Us']") WebElement ClickContactUsButton;
 	
 	@FindBy(xpath=".//a[@title='Return to Home']/i['@class=\"icon-home\"']") WebElement VarifiedContactHomeLogo;
 	
 	
+>>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c
 	
 	public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
@@ -81,7 +87,16 @@ log.info("Error message is : "+authenticationFailed.getText());
 	public String validCreateAccount(){
 		log.info("Valid message is : "+validCreatedAccount.getText());
 				return validCreatedAccount.getText();
+	}	
+	public void VerifiedWomenButton(){
+		dressButtonFromHomepage.click();
+		WomenButton.isDisplayed();
+		Assert.assertEquals(WomenButton, WomenButton);
+		log.info(WomenButton);			
+	}
 }
+<<<<<<< HEAD
+=======
 
 	public void verifyContactHomeLogo() {
 		ClickContactUsButton.click();
@@ -92,3 +107,4 @@ log.info("Error message is : "+authenticationFailed.getText());
  		
 	}
 }
+>>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c

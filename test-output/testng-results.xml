@@ -2,6 +2,21 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
+  <suite name="Default suite" duration-ms="3914" started-at="2017-12-17T17:16:47Z" finished-at="2017-12-17T17:16:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3914" started-at="2017-12-17T17:16:47Z" finished-at="2017-12-17T17:16:51Z">
+      <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@91161c7]" name="setup" is-config="true" duration-ms="2927" started-at="2017-12-17T12:16:47Z" finished-at="2017-12-17T12:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="WomendressButton()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@91161c7]" name="WomendressButton" duration-ms="978" started-at="2017-12-17T12:16:50Z" finished-at="2017-12-17T12:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WomendressButton -->
+=======
   <suite name="Default suite" duration-ms="3552" started-at="2017-12-17T16:26:59Z" finished-at="2017-12-17T16:27:02Z">
     <groups>
     </groups>
@@ -15,6 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactPageHomeLogo -->
+>>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c
       </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
