@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class HomePage {
 	public static final Logger log=Logger.getLogger(HomePage.class.getName());
@@ -31,6 +32,11 @@ public class HomePage {
 	@FindBy(xpath=".//div[@class=\"col-sm-4 clearfix\"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']") WebElement shoppingChartFromHomePage;
 	
 	@FindBy(xpath=".//h1['Create an account']") WebElement validCreatedAccount;
+	
+	@FindBy(xpath=".//*[@id='contact-link']/a['@ title=Contact Us']") WebElement ClickContactUsButton;
+	
+	@FindBy(xpath=".//a[@title='Return to Home']/i['@class=\"icon-home\"']") WebElement VarifiedContactHomeLogo;
+	
 	
 	
 	public HomePage(WebDriver driver){
@@ -76,4 +82,13 @@ log.info("Error message is : "+authenticationFailed.getText());
 		log.info("Valid message is : "+validCreatedAccount.getText());
 				return validCreatedAccount.getText();
 }
+
+	public void verifyContactHomeLogo() {
+		ClickContactUsButton.click();
+		VarifiedContactHomeLogo.isDisplayed();
+		Assert.assertEquals(VarifiedContactHomeLogo, VarifiedContactHomeLogo);
+		log.info(VarifiedContactHomeLogo);
+		
+ 		
+	}
 }

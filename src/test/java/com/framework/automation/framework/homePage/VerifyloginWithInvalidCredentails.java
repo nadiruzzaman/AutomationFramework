@@ -32,7 +32,7 @@ public class VerifyloginWithInvalidCredentails extends TestBase{
 
 	@AfterTest 
 	public void end(){
-	//driver.close();
+	driver.close();
 		
 	}
 }
