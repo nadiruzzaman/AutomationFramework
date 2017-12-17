@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class HomePage {
 	public static final Logger log=Logger.getLogger(HomePage.class.getName());
@@ -31,6 +32,10 @@ public class HomePage {
 	@FindBy(xpath=".//div[@class=\"col-sm-4 clearfix\"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']") WebElement shoppingChartFromHomePage;
 	
 	@FindBy(xpath=".//h1['Create an account']") WebElement validCreatedAccount;
+	
+	@FindBy(xpath=".//*[@id='block_top_menu']/ul/li['Dresses']/a[@title='Dresses']") WebElement dressButtonFromHomepage;
+	
+	@FindBy(xpath=".//*[@id='columns']/div[@class=\"breadcrumb clearfix\"]") WebElement WomenButton;
 	
 	public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
@@ -74,5 +79,11 @@ log.info("Error message is : "+authenticationFailed.getText());
 	public String validCreateAccount(){
 		log.info("Valid message is : "+validCreatedAccount.getText());
 				return validCreatedAccount.getText();
-}
+	}	
+	public void VerifiedWomenButton(){
+		dressButtonFromHomepage.click();
+		WomenButton.isDisplayed();
+		Assert.assertEquals(WomenButton, WomenButton);
+		log.info(WomenButton);			
+	}
 }
