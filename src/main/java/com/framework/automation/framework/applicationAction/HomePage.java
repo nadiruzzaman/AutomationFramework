@@ -32,6 +32,7 @@ public class HomePage {
 	
 	@FindBy(xpath=".//h1['Create an account']") WebElement validCreatedAccount;
 	
+	
 	public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 		
