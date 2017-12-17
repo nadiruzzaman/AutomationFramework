@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6399" started-at="2017-11-26T01:06:38Z" finished-at="2017-11-26T01:06:44Z">
+  <suite name="Default suite" duration-ms="3552" started-at="2017-12-17T16:26:59Z" finished-at="2017-12-17T16:27:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6399" started-at="2017-11-26T01:06:38Z" finished-at="2017-11-26T01:06:44Z">
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="setup" is-config="true" duration-ms="4529" started-at="2017-11-25T20:06:38Z" finished-at="2017-11-25T20:06:42Z">
+    <test name="Default test" duration-ms="3552" started-at="2017-12-17T16:26:59Z" finished-at="2017-12-17T16:27:02Z">
+      <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@6500df86]" name="setup" is-config="true" duration-ms="2623" started-at="2017-12-17T11:26:59Z" finished-at="2017-12-17T11:27:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentails()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="verifyLoginWithInvalidCredentails" duration-ms="1859" started-at="2017-11-25T20:06:42Z" finished-at="2017-11-25T20:06:44Z">
+        <test-method status="PASS" signature="verifyContactPageHomeLogo()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@6500df86]" name="verifyContactPageHomeLogo" duration-ms="920" started-at="2017-12-17T11:27:01Z" finished-at="2017-12-17T11:27:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidCredentails -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5c3bd550]" name="end" is-config="true" duration-ms="0" started-at="2017-11-25T20:06:44Z" finished-at="2017-11-25T20:06:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
+        </test-method> <!-- verifyContactPageHomeLogo -->
+      </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
