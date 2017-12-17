@@ -332,3 +332,10 @@
 2017-11-25 12:54:33 INFO  HomePage:63 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (6295ac410ee851cffd8f6f1b66cef3cb)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
 2017-11-25 12:54:33 INFO  VerifyloginWithValidCredentails:35 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
 >>>>>>> 49ff801534aeb5c5b7564bf7e6e225a80cad317c
+2017-11-25 20:06:42 INFO  VerifyloginWithInvalidCredentails:24 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2017-11-25 20:06:43 INFO  HomePage:42 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (7d6d6abb59c56889652e92491002b04f)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2017-11-25 20:06:43 INFO  HomePage:44 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (7d6d6abb59c56889652e92491002b04f)] -> id: email]
+2017-11-25 20:06:43 INFO  HomePage:46 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (7d6d6abb59c56889652e92491002b04f)] -> id: passwd]
+2017-11-25 20:06:44 INFO  HomePage:48 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (7d6d6abb59c56889652e92491002b04f)] -> id: SubmitLogin]
+2017-11-25 20:06:44 INFO  HomePage:65 - Error message is : Authentication failed.
+2017-11-25 20:06:44 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
