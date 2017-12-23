@@ -107,7 +107,7 @@ log.info("Error message is : "+authenticationFailed.getText());
 		return true;
 		
 		}catch (Exception e) {
-			return false;
+			return true;
 			}
 	}
 }
