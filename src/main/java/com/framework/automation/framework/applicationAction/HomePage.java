@@ -91,8 +91,7 @@ log.info("Error message is : "+authenticationFailed.getText());
 		log.info(WomenButton);			
 	}
 }
-<<<<<<< HEAD
-=======
+
 
 	public void verifyContactHomeLogo() {
 		ClickContactUsButton.click();
@@ -103,4 +102,3 @@ log.info("Error message is : "+authenticationFailed.getText());
  		
 	}
 }
->>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c
