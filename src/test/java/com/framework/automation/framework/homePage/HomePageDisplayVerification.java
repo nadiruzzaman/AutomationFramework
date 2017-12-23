@@ -3,11 +3,7 @@ package com.framework.automation.framework.homePage;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
-<<<<<<< HEAD
 import org.testng.annotations.AfterTest;
-=======
-import org.testng.Assert;
->>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -32,13 +28,7 @@ public class HomePageDisplayVerification extends TestBase {
 
 	}
 
-	@AfterTest
-	public void end() {
-		driver.close();
-
-	}
-<<<<<<< HEAD
-=======
+	
 	@Test
 	public void verifyContactPageHomeLogo(){
 	 log.info("***********HomePageDisplayVerificationTest************");
@@ -48,7 +38,11 @@ public class HomePageDisplayVerification extends TestBase {
 }
 
 	
+	@AfterTest
+	public void end() {
+		driver.close();
+
+	}
 	
->>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c
 
 }
