@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4587" started-at="2017-12-23T15:24:20Z" finished-at="2017-12-23T15:24:25Z">
+  <suite name="Default suite" duration-ms="4044" started-at="2017-12-24T17:14:30Z" finished-at="2017-12-24T17:14:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4587" started-at="2017-12-23T15:24:20Z" finished-at="2017-12-23T15:24:25Z">
+    <test name="Default test" duration-ms="4044" started-at="2017-12-24T17:14:30Z" finished-at="2017-12-24T17:14:34Z">
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@685cb137]" name="setup" is-config="true" duration-ms="3361" started-at="2017-12-23T10:24:20Z" finished-at="2017-12-23T10:24:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="setup" is-config="true" duration-ms="2584" started-at="2017-12-24T12:14:30Z" finished-at="2017-12-24T12:14:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="WomenDressButton()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@685cb137]" name="WomenDressButton" duration-ms="1110" started-at="2017-12-23T10:24:23Z" finished-at="2017-12-23T10:24:25Z">
+        <test-method status="PASS" signature="verifywomencategories()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="verifywomencategories" duration-ms="1315" started-at="2017-12-24T12:14:33Z" finished-at="2017-12-24T12:14:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WomenDressButton -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@685cb137]" name="end" is-config="true" duration-ms="107" started-at="2017-12-23T10:24:25Z" finished-at="2017-12-23T10:24:25Z">
+        </test-method> <!-- verifywomencategories -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="end" is-config="true" duration-ms="136" started-at="2017-12-24T12:14:34Z" finished-at="2017-12-24T12:14:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

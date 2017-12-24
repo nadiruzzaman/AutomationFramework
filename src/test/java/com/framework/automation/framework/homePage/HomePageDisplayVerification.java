@@ -37,6 +37,13 @@ public class HomePageDisplayVerification extends TestBase {
 	 log.info("***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************");
 }
 
+	@Test
+	public void verifywomencategories(){
+	 log.info("***********womencategoriesTest************");
+	 homepage = new HomePage(driver);
+	 homepage.womenCategories();
+	 log.info("***********Finish womencategories Test************");
+}
 	
 	@AfterTest
 	public void end() {

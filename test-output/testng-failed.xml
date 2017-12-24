@@ -5,7 +5,7 @@
     <classes>
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
         <methods>
-          <include name="WomenDressButton"/>
+          <include name="verifywomencategories"/>
         </methods>
       </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
     </classes>
