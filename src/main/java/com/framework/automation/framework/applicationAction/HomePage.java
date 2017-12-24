@@ -74,7 +74,6 @@ public class HomePage {
 		 			bestSellersButton.isDisplayed();
 		 			log.info("bestSellersButton");
 	
-		
 	
 	}	 
 		 public String getInvalidLogInText(){
@@ -103,8 +102,6 @@ log.info("Error message is : "+authenticationFailed.getText());
 		}
 	}
 
-
-
 	public boolean verifyContactHomeLogo() {
 		try{
 		ClickContactUsButton.click();
@@ -114,7 +111,7 @@ log.info("Error message is : "+authenticationFailed.getText());
 		return true;
 		
 		}catch (Exception e) {
-			return true;
+			return false;
 			}
 	}
 }
