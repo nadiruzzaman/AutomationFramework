@@ -43,7 +43,6 @@ public void validEmailforCreateAccount(){
 log.info("***********Finish validEmailforCreateAccount Test************");
 }
 
-
 	@AfterTest 
 	public void end(){
 	driver.close();
