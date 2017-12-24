@@ -369,3 +369,18 @@
 2017-12-23 10:24:23 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
 2017-12-23 10:24:25 INFO  HomePage:94 - [[RemoteWebDriver: chrome on MAC (c6771dc04156421ba57b37bbf12ecf8e)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-23 10:24:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
+2017-12-24 10:55:23 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
+2017-12-24 10:56:36 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
+2017-12-24 10:58:07 INFO  HomePageDisplayVerification:35 - ***********HomePageDisplayVerificationTest************
+2017-12-24 10:58:07 INFO  HomePage:123 - [[RemoteWebDriver: chrome on MAC (21d27d49c6eaaa9250ed3ecff94d20d8)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-24 10:58:07 INFO  HomePageDisplayVerification:38 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-24 10:59:32 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
+2017-12-24 11:03:09 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
+2017-12-24 11:04:09 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
+2017-12-24 11:05:28 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
+2017-12-24 11:05:29 INFO  HomePage:133 - [[RemoteWebDriver: chrome on MAC (a2654bb05623e9d2d84f87a8a0db8e84)] -> xpath: .//button[@name='submitNewsletter']]
+2017-12-24 11:05:29 INFO  HomePage:101 - Error message is : Newsletter : This email address is already registered.
+2017-12-24 11:06:16 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
+2017-12-24 11:06:17 INFO  HomePage:133 - [[RemoteWebDriver: chrome on MAC (a2bc6a18a3282e8f623a61b084471c4e)] -> xpath: .//button[@name='submitNewsletter']]
+2017-12-24 11:06:17 INFO  HomePage:101 - Error message is : Newsletter : This email address is already registered.
+2017-12-24 11:06:17 INFO  HomePageDisplayVerification:47 - ***********Finish verifyNewsLetterInvitation Test************

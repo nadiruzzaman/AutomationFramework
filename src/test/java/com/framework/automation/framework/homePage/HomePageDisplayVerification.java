@@ -3,6 +3,7 @@ package com.framework.automation.framework.homePage;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -37,6 +38,15 @@ public class HomePageDisplayVerification extends TestBase {
 	 log.info("***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************");
 }
 
+	@Test
+	public void verifyNewsLetterInvitation(){
+	 log.info("***********verifyNewsLetterInvitation************");
+	 homepage = new HomePage(driver);
+	 homepage.NewsLetterInvitation("kamaluddinitqa@gmail.com");
+	 Assert.assertEquals(homepage.HomePageNewsLetterInvitaionResult(),"Newsletter : This email address is already registered.");
+	 log.info("***********Finish verifyNewsLetterInvitation Test************");
+	 
+}
 	
 	@AfterTest
 	public void end() {

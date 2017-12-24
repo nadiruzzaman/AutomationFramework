@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
     <classes>
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
         <methods>
-          <include name="WomenDressButton"/>
+          <include name="verifyNewsLetterInvitation"/>
         </methods>
       </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
     </classes>

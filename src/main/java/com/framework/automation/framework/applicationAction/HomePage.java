@@ -7,6 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import jdk.internal.jline.internal.Log;
+
 public class HomePage {
 	public static final Logger log=Logger.getLogger(HomePage.class.getName());
 
@@ -40,6 +42,15 @@ public class HomePage {
 	@FindBy(xpath=".//*[@id='contact-link']/a['@ title=Contact Us']") WebElement ClickContactUsButton;
 	
 	@FindBy(xpath=".//a[@title='Return to Home']/i['@class=\"icon-home\"']") WebElement VarifiedContactHomeLogo;
+	
+	@FindBy(id="newsletter-input") WebElement EnterEmailAddressForEmailAddressForNewsLetter;
+	
+	@FindBy(xpath=".//button[@name='submitNewsletter']") WebElement NewsLetterClickButton;
+	
+	@FindBy(xpath=".//*[@id='columns']/p[@class='alert alert-danger']") WebElement NewsLetterInvitaionResult;
+	
+	
+	
 	
 	
 		public HomePage(WebDriver driver){
@@ -85,6 +96,11 @@ log.info("Error message is : "+authenticationFailed.getText());
 		log.info("Valid message is : "+validCreatedAccount.getText());
 				return validCreatedAccount.getText();
 	}	
+	
+	public String HomePageNewsLetterInvitaionResult(){
+		log.info("Error message is : "+NewsLetterInvitaionResult.getText());
+				return NewsLetterInvitaionResult.getText();
+			}
 	public boolean VerifiedWomenButton(){
 		try{
 		dressButtonFromHomepage.click();
@@ -111,5 +127,13 @@ log.info("Error message is : "+authenticationFailed.getText());
 			return true;
 			}
 	}
-}
+		public void NewsLetterInvitation(String Email){
+			EnterEmailAddressForEmailAddressForNewsLetter.sendKeys(Email);
+			NewsLetterClickButton.click();
+			log.info(NewsLetterClickButton);			
+			
+			
+		}
+	}
+
 
