@@ -102,6 +102,10 @@ log.info("Error message is : "+authenticationFailed.getText());
 		}
 	}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 	public boolean verifyContactHomeLogo() {
 		try{
 		ClickContactUsButton.click();
