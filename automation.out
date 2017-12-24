@@ -369,3 +369,13 @@
 2017-12-23 10:24:23 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
 2017-12-23 10:24:25 INFO  HomePage:94 - [[RemoteWebDriver: chrome on MAC (c6771dc04156421ba57b37bbf12ecf8e)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-23 10:24:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
+2017-12-24 10:29:24 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
+2017-12-24 10:29:25 INFO  HomePage:99 - [[RemoteWebDriver: chrome on MAC (701f9dd60ecc625bacee24db1bd89f15)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
+2017-12-24 10:29:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
+2017-12-24 10:29:25 INFO  HomePageDisplayVerification:34 - ***********HomePageDisplayVerificationTest************
+2017-12-24 10:29:26 INFO  HomePage:113 - [[RemoteWebDriver: chrome on MAC (701f9dd60ecc625bacee24db1bd89f15)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-24 10:29:26 INFO  HomePageDisplayVerification:37 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-24 10:29:26 INFO  HomePageDisplayVerification:42 - **********bestSellersButtonTest************
+2017-12-24 10:34:22 INFO  HomePageDisplayVerification:42 - **********bestSellersButtonTest************
+2017-12-24 10:34:23 INFO  HomePage:75 - bestSellersButton
+2017-12-24 10:34:23 INFO  HomePageDisplayVerification:45 - *********** vrifybestSellersButtonInHomepgaeTest************
