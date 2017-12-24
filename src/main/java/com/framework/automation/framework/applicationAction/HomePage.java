@@ -40,7 +40,7 @@ public class HomePage {
 	@FindBy(xpath=".//*[@id='contact-link']/a['@ title=Contact Us']") WebElement ClickContactUsButton;
 	
 	@FindBy(xpath=".//a[@title='Return to Home']/i['@class=\"icon-home\"']") WebElement VarifiedContactHomeLogo;
-	
+	@FindBy(xpath=".//*[@id='home-page-tabs']/li[@class='active']/a['Best Sellers']") WebElement bestSellersButton;
 	
 		public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
@@ -69,6 +69,12 @@ public class HomePage {
 	public void vrifiedHomePageshoppingchart(){
 		shoppingChartFromHomePage.isDisplayed();
 		 		log.info(" shoppingchart object is : "+shoppingChartFromHomePage.toString());
+	}
+		 		public void vrifybestSellersButtonInHomepgae(){
+		 			bestSellersButton.isDisplayed();
+		 			log.info("bestSellersButton");
+	
+		
 	
 	}	 
 		 public String getInvalidLogInText(){

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4587" started-at="2017-12-23T15:24:20Z" finished-at="2017-12-23T15:24:25Z">
+  <suite name="Default suite" duration-ms="2820" started-at="2017-12-24T15:34:20Z" finished-at="2017-12-24T15:34:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4587" started-at="2017-12-23T15:24:20Z" finished-at="2017-12-23T15:24:25Z">
+    <test name="Default test" duration-ms="2820" started-at="2017-12-24T15:34:20Z" finished-at="2017-12-24T15:34:23Z">
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@685cb137]" name="setup" is-config="true" duration-ms="3361" started-at="2017-12-23T10:24:20Z" finished-at="2017-12-23T10:24:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="setup" is-config="true" duration-ms="2636" started-at="2017-12-24T10:34:20Z" finished-at="2017-12-24T10:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="WomenDressButton()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@685cb137]" name="WomenDressButton" duration-ms="1110" started-at="2017-12-23T10:24:23Z" finished-at="2017-12-23T10:24:25Z">
+        <test-method status="PASS" signature="vrifybestSellersButtonInHomepgae()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="vrifybestSellersButtonInHomepgae" duration-ms="65" started-at="2017-12-24T10:34:22Z" finished-at="2017-12-24T10:34:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WomenDressButton -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@685cb137]" name="end" is-config="true" duration-ms="107" started-at="2017-12-23T10:24:25Z" finished-at="2017-12-23T10:24:25Z">
+        </test-method> <!-- vrifybestSellersButtonInHomepgae -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="end" is-config="true" duration-ms="107" started-at="2017-12-24T10:34:23Z" finished-at="2017-12-24T10:34:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

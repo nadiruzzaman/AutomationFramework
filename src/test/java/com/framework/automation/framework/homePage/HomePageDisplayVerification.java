@@ -37,7 +37,13 @@ public class HomePageDisplayVerification extends TestBase {
 	 log.info("***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************");
 }
 
-	
+	@Test
+	public void vrifybestSellersButtonInHomepgae(){
+	 log.info("**********bestSellersButtonTest************");
+	 homepage = new HomePage(driver);
+	 homepage.vrifybestSellersButtonInHomepgae();
+	 log.info("*********** vrifybestSellersButtonInHomepgaeTest************");
+	}
 	@AfterTest
 	public void end() {
 		driver.close();
