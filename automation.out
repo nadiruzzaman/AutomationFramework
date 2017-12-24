@@ -366,3 +366,6 @@
 2017-12-17 11:27:02 INFO  HomePage:90 - [[RemoteWebDriver: chrome on MAC (21d4a60e05c91e13552d76823162256d)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
 2017-12-17 11:27:02 INFO  HomePageDisplayVerification:25 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
 >>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c
+2017-12-23 10:24:23 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
+2017-12-23 10:24:25 INFO  HomePage:94 - [[RemoteWebDriver: chrome on MAC (c6771dc04156421ba57b37bbf12ecf8e)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
+2017-12-23 10:24:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************

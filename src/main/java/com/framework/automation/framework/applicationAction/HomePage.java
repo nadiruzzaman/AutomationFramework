@@ -40,8 +40,9 @@ public class HomePage {
 	@FindBy(xpath=".//*[@id='contact-link']/a['@ title=Contact Us']") WebElement ClickContactUsButton;
 	
 	@FindBy(xpath=".//a[@title='Return to Home']/i['@class=\"icon-home\"']") WebElement VarifiedContactHomeLogo;
-		
-	public HomePage(WebDriver driver){
+	
+	
+		public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 		
 	}
@@ -84,21 +85,31 @@ log.info("Error message is : "+authenticationFailed.getText());
 		log.info("Valid message is : "+validCreatedAccount.getText());
 				return validCreatedAccount.getText();
 	}	
-	public void VerifiedWomenButton(){
+	public boolean VerifiedWomenButton(){
+		try{
 		dressButtonFromHomepage.click();
 		WomenButton.isDisplayed();
 		Assert.assertEquals(WomenButton, WomenButton);
-		log.info(WomenButton);			
+		log.info(WomenButton);
+		return true;
+	} catch (Exception e) {
+		return false;
+		}
 	}
-}
 
 
-	public void verifyContactHomeLogo() {
+
+	public boolean verifyContactHomeLogo() {
+		try{
 		ClickContactUsButton.click();
 		VarifiedContactHomeLogo.isDisplayed();
 		Assert.assertEquals(VarifiedContactHomeLogo, VarifiedContactHomeLogo);
 		log.info(VarifiedContactHomeLogo);
+		return true;
 		
- 		
+		}catch (Exception e) {
+			return true;
+			}
 	}
 }
+

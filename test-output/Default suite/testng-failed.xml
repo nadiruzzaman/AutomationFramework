@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-<<<<<<< HEAD
-      <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification"/>
-=======
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
         <methods>
-          <include name="verifyContactPageHomeLogo"/>
+          <include name="WomenDressButton"/>
         </methods>
       </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
->>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->
