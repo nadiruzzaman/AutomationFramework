@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3914" started-at="2017-12-17T17:16:47Z" finished-at="2017-12-17T17:16:51Z">
+  <suite name="Default suite" duration-ms="4587" started-at="2017-12-23T15:24:20Z" finished-at="2017-12-23T15:24:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3914" started-at="2017-12-17T17:16:47Z" finished-at="2017-12-17T17:16:51Z">
+    <test name="Default test" duration-ms="4587" started-at="2017-12-23T15:24:20Z" finished-at="2017-12-23T15:24:25Z">
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@91161c7]" name="setup" is-config="true" duration-ms="2927" started-at="2017-12-17T12:16:47Z" finished-at="2017-12-17T12:16:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@685cb137]" name="setup" is-config="true" duration-ms="3361" started-at="2017-12-23T10:24:20Z" finished-at="2017-12-23T10:24:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="WomendressButton()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@91161c7]" name="WomendressButton" duration-ms="978" started-at="2017-12-17T12:16:50Z" finished-at="2017-12-17T12:16:51Z">
+        <test-method status="PASS" signature="WomenDressButton()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@685cb137]" name="WomenDressButton" duration-ms="1110" started-at="2017-12-23T10:24:23Z" finished-at="2017-12-23T10:24:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WomendressButton -->
+        </test-method> <!-- WomenDressButton -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@685cb137]" name="end" is-config="true" duration-ms="107" started-at="2017-12-23T10:24:25Z" finished-at="2017-12-23T10:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
       </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
