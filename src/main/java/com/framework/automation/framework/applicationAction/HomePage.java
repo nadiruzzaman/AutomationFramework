@@ -35,12 +35,15 @@ public class HomePage {
 	
 	@FindBy(xpath=".//*[@id='block_top_menu']/ul/li['Dresses']/a[@title='Dresses']") WebElement dressButtonFromHomepage;
 	
-	@FindBy(xpath=".//*[@id='columns']/div[@class=\"breadcrumb clearfix\"]") WebElement WomenButton;
+	@FindBy(xpath=".//*[@id='columns']/div[@class='breadcrumb clearfix']") WebElement WomenButton;
 
 	@FindBy(xpath=".//*[@id='contact-link']/a['@ title=Contact Us']") WebElement ClickContactUsButton;
 	
 	@FindBy(xpath=".//a[@title='Return to Home']/i['@class=\"icon-home\"']") WebElement VarifiedContactHomeLogo;
+
 	@FindBy(xpath=".//*[@id='home-page-tabs']/li[@class='active']/a['Best Sellers']") WebElement bestSellersButton;
+
+	@FindBy(xpath=".//section['Categories']/div/div/ul/li/a['Women']") WebElement wonemCategories;
 	
 		public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
@@ -76,6 +79,7 @@ public class HomePage {
 	
 	
 	}	 
+
 		 public String getInvalidLogInText(){
 log.info("Error message is : "+authenticationFailed.getText());
 		return authenticationFailed.getText();
@@ -114,8 +118,16 @@ log.info("Error message is : "+authenticationFailed.getText());
 			return false;
 			}
 	}
-	
-	
-	
+
+		
+		public void womenCategories(){
+ 			wonemCategories.click();
+ 			WomenButton.isDisplayed();
+ 			log.info(WomenButton);
+ 		
+
+	 
+	}
+
 }
 

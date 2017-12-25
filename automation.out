@@ -369,6 +369,7 @@
 2017-12-23 10:24:23 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
 2017-12-23 10:24:25 INFO  HomePage:94 - [[RemoteWebDriver: chrome on MAC (c6771dc04156421ba57b37bbf12ecf8e)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-23 10:24:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
+<<<<<<< HEAD
 2017-12-24 10:29:24 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
 2017-12-24 10:29:25 INFO  HomePage:99 - [[RemoteWebDriver: chrome on MAC (701f9dd60ecc625bacee24db1bd89f15)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-24 10:29:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
@@ -379,3 +380,17 @@
 2017-12-24 10:34:22 INFO  HomePageDisplayVerification:42 - **********bestSellersButtonTest************
 2017-12-24 10:34:23 INFO  HomePage:75 - bestSellersButton
 2017-12-24 10:34:23 INFO  HomePageDisplayVerification:45 - *********** vrifybestSellersButtonInHomepgaeTest************
+=======
+2017-12-24 12:08:11 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
+2017-12-24 12:08:12 INFO  HomePage:93 - [[RemoteWebDriver: chrome on MAC (2314be78f06dbd138bf5cbb7490d9c74)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-24 12:08:12 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
+2017-12-24 12:08:12 INFO  HomePageDisplayVerification:34 - ***********HomePageDisplayVerificationTest************
+2017-12-24 12:08:12 INFO  HomePage:107 - [[RemoteWebDriver: chrome on MAC (2314be78f06dbd138bf5cbb7490d9c74)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-24 12:08:12 INFO  HomePageDisplayVerification:37 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-24 12:08:12 INFO  HomePageDisplayVerification:42 - ***********womencategoriesTest************
+2017-12-24 12:08:14 INFO  HomePage:118 - [[RemoteWebDriver: chrome on MAC (2314be78f06dbd138bf5cbb7490d9c74)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-24 12:08:14 INFO  HomePageDisplayVerification:45 - ***********Finish womencategories Test************
+2017-12-24 12:14:33 INFO  HomePageDisplayVerification:42 - ***********womencategoriesTest************
+2017-12-24 12:14:34 INFO  HomePage:118 - [[RemoteWebDriver: chrome on MAC (2100e7e0ee145e88d79c9f910b00c737)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-24 12:14:34 INFO  HomePageDisplayVerification:45 - ***********Finish womencategories Test************
+>>>>>>> origin/Konok

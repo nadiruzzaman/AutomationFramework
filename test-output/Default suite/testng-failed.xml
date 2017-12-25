@@ -5,7 +5,11 @@
     <classes>
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
         <methods>
+<<<<<<< HEAD
           <include name="vrifybestSellersButtonInHomepgae"/>
+=======
+          <include name="verifywomencategories"/>
+>>>>>>> origin/Konok
         </methods>
       </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
     </classes>
