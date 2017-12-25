@@ -116,17 +116,6 @@ log.info("Error message is : "+authenticationFailed.getText());
 	}
 	
 	
-	public boolean test() {
-		try{
-		ClickContactUsButton.click();
-		VarifiedContactHomeLogo.isDisplayed();
-		Assert.assertEquals(VarifiedContactHomeLogo, VarifiedContactHomeLogo);
-		log.info(VarifiedContactHomeLogo);
-		return true;
-		
-		}catch (Exception e) {
-			return false;
-			}
-	}
+	
 }
 
