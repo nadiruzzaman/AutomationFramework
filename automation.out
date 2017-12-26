@@ -96,14 +96,6 @@
 2017-11-11 11:22:49 INFO  HomePage:48 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='SubmitLogin']'
 2017-11-11 11:22:49 INFO  HomePage:57 - Valid message is : k u
 2017-11-11 11:22:49 INFO  VerifyloginWithValidCredentails:28 - ***********Finish verifyLoginWithValidCredentails Test************
-<<<<<<< HEAD
-2017-11-11 12:34:28 INFO  VerifyloginWithInvalidCredentails:24 - ***********Starting VerifyloginWithInvalidCredentails Test************
-2017-11-11 12:34:29 INFO  HomePage:42 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (c6e7dcc847ed79a6bce92f6005d30543)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
-2017-11-11 12:34:29 INFO  HomePage:44 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (c6e7dcc847ed79a6bce92f6005d30543)] -> xpath: .//*[@id='email']]
-2017-11-11 12:34:29 INFO  HomePage:46 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (c6e7dcc847ed79a6bce92f6005d30543)] -> xpath: .//*[@id='passwd']]
-2017-11-11 12:34:30 INFO  HomePage:48 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (c6e7dcc847ed79a6bce92f6005d30543)] -> xpath: .//*[@id='SubmitLogin']]
-2017-11-11 12:34:30 INFO  HomePage:52 - Error message is : Authentication failed.
-2017-11-11 12:34:30 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
 2017-11-11 12:34:31 INFO  TestBase:36 - creating object of  chrome
 2017-11-11 12:34:31 INFO  TestBase:49 - navigating to http://automationpractice.com/index.php
 2017-11-11 12:34:33 INFO  VerifyloginWithValidCredentails:24 - ***********Starting verifyLoginWithValidCredentails Test************
@@ -133,7 +125,6 @@
 2017-11-11 20:10:50 INFO  HomePage:42 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (60acf3d2534f5bba5b52cd2ef6ec347d)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
 2017-11-11 20:10:50 INFO  HomePage:44 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (60acf3d2534f5bba5b52cd2ef6ec347d)] -> xpath: .//*[@id='email']]
 2017-11-11 20:10:50 INFO  HomePage:46 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (60acf3d2534f5bba5b52cd2ef6ec347d)] -> xpath: .//*[@id='passwd']]
-=======
 2017-11-12 09:01:55 INFO  VerifyloginWithInvalidCredentails:32 - ***********Starting validEmailforCreateAccount Test************
 2017-11-12 09:01:56 INFO  HomePage:64 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (89d5691e325f4cb68f67a874fa8baea3)] -> xpath: .//*[@id='header']/div[2]/div/div/nav/div[1]/a]
 2017-11-12 09:01:56 INFO  HomePage:66 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (89d5691e325f4cb68f67a874fa8baea3)] -> xpath: .//*[@id='email_create']]
@@ -331,7 +322,6 @@
 2017-11-25 12:54:33 INFO  VerifyloginWithValidCredentails:32 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
 2017-11-25 12:54:33 INFO  HomePage:63 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (6295ac410ee851cffd8f6f1b66cef3cb)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
 2017-11-25 12:54:33 INFO  VerifyloginWithValidCredentails:35 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
->>>>>>> 49ff801534aeb5c5b7564bf7e6e225a80cad317c
 2017-11-25 20:06:42 INFO  VerifyloginWithInvalidCredentails:24 - ***********Starting VerifyloginWithInvalidCredentails Test************
 2017-11-25 20:06:43 INFO  HomePage:42 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (7d6d6abb59c56889652e92491002b04f)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
 2017-11-25 20:06:43 INFO  HomePage:44 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (7d6d6abb59c56889652e92491002b04f)] -> id: email]
@@ -339,14 +329,12 @@
 2017-11-25 20:06:44 INFO  HomePage:48 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (7d6d6abb59c56889652e92491002b04f)] -> id: SubmitLogin]
 2017-11-25 20:06:44 INFO  HomePage:65 - Error message is : Authentication failed.
 2017-11-25 20:06:44 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
-<<<<<<< HEAD
 2017-12-17 12:12:56 INFO  HomePageDisplayVerification:21 - ***********Verified WomendressButton Test************
 2017-12-17 12:12:57 INFO  HomePage:85 - [[RemoteWebDriver: chrome on MAC (dd584954c9397dfc46509e2dd4277c38)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-17 12:12:57 INFO  HomePageDisplayVerification:24 - ***********Finish WomendressButton Test************
 2017-12-17 12:16:50 INFO  HomePageDisplayVerification:21 - ***********Verified WomendressButton Test************
 2017-12-17 12:16:51 INFO  HomePage:87 - [[RemoteWebDriver: chrome on MAC (05d793c91709ffb083c1acc2cf3732c9)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-17 12:16:51 INFO  HomePageDisplayVerification:24 - ***********Finish WomendressButton Test************
-=======
 2017-12-17 10:45:25 INFO  HomePageDisplayVerification:22 - ***********HomePageDisplayVerificationTest************
 2017-12-17 10:45:25 INFO  HomePage:85 - [[RemoteWebDriver: chrome on MAC (5a5f343f91c7bd053f63151dd28c325e)] -> xpath: .//div['@class="icon-home"']/a/i]
 2017-12-17 10:45:25 INFO  HomePageDisplayVerification:26 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
@@ -365,11 +353,9 @@
 2017-12-17 11:27:01 INFO  HomePageDisplayVerification:22 - ***********HomePageDisplayVerificationTest************
 2017-12-17 11:27:02 INFO  HomePage:90 - [[RemoteWebDriver: chrome on MAC (21d4a60e05c91e13552d76823162256d)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
 2017-12-17 11:27:02 INFO  HomePageDisplayVerification:25 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
->>>>>>> 3869fd2a9b60015dec419b108aa779a7fe0ea63c
 2017-12-23 10:24:23 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
 2017-12-23 10:24:25 INFO  HomePage:94 - [[RemoteWebDriver: chrome on MAC (c6771dc04156421ba57b37bbf12ecf8e)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-23 10:24:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
-<<<<<<< HEAD
 2017-12-24 10:55:23 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
 2017-12-24 10:56:36 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
 2017-12-24 10:58:07 INFO  HomePageDisplayVerification:35 - ***********HomePageDisplayVerificationTest************
@@ -398,8 +384,6 @@
 2017-12-24 12:39:28 INFO  HomePage:138 - [[RemoteWebDriver: chrome on MAC (68cf39454b9ddcc54eb2488492b61e3e)] -> xpath: .//button[@name='submitNewsletter']]
 2017-12-24 12:39:28 INFO  HomePage:106 - Error message is : Newsletter : This email address is already registered.
 2017-12-24 12:39:28 INFO  HomePageDisplayVerification:47 - ***********Finish verifyNewsLetterInvitation Test************
-=======
-<<<<<<< HEAD
 2017-12-24 10:29:24 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
 2017-12-24 10:29:25 INFO  HomePage:99 - [[RemoteWebDriver: chrome on MAC (701f9dd60ecc625bacee24db1bd89f15)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-24 10:29:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
@@ -410,7 +394,6 @@
 2017-12-24 10:34:22 INFO  HomePageDisplayVerification:42 - **********bestSellersButtonTest************
 2017-12-24 10:34:23 INFO  HomePage:75 - bestSellersButton
 2017-12-24 10:34:23 INFO  HomePageDisplayVerification:45 - *********** vrifybestSellersButtonInHomepgaeTest************
-=======
 2017-12-24 12:08:11 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
 2017-12-24 12:08:12 INFO  HomePage:93 - [[RemoteWebDriver: chrome on MAC (2314be78f06dbd138bf5cbb7490d9c74)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
 2017-12-24 12:08:12 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
@@ -423,8 +406,6 @@
 2017-12-24 12:14:33 INFO  HomePageDisplayVerification:42 - ***********womencategoriesTest************
 2017-12-24 12:14:34 INFO  HomePage:118 - [[RemoteWebDriver: chrome on MAC (2100e7e0ee145e88d79c9f910b00c737)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
 2017-12-24 12:14:34 INFO  HomePageDisplayVerification:45 - ***********Finish womencategories Test************
->>>>>>> origin/Konok
->>>>>>> 173ccd3efb46b51ac386b5983689c2ac2c05d151
 2017-12-26 09:59:12 INFO  HomePageDisplayVerification:75 - ***********verifyAdCartPrintedDress************
 2017-12-26 10:05:33 INFO  HomePageDisplayVerification:75 - ***********verifyAdCartPrintedDress************
 2017-12-26 10:09:11 INFO  HomePageDisplayVerification:75 - ***********verifyAdCartPrintedDress************
