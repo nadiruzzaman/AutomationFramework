@@ -2,20 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2017-12-26T16:18:50Z" name="Default suite" finished-at="2017-12-26T16:18:54Z" duration-ms="3738">
+  <suite started-at="2017-12-26T16:49:40Z" name="Default suite" finished-at="2017-12-26T16:49:44Z" duration-ms="3880">
     <groups>
     </groups>
-    <test started-at="2017-12-26T16:18:50Z" name="Default test" finished-at="2017-12-26T16:18:54Z" duration-ms="3738">
+    <test started-at="2017-12-26T16:49:40Z" name="Default test" finished-at="2017-12-26T16:49:44Z" duration-ms="3880">
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@6ff29830]" started-at="2017-12-26T11:18:50Z" name="setup" finished-at="2017-12-26T11:18:53Z" duration-ms="2739" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@548e6d58]" started-at="2017-12-26T11:49:40Z" name="setup" finished-at="2017-12-26T11:49:42Z" duration-ms="2784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tShirtSearch()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@6ff29830]" started-at="2017-12-26T11:18:53Z" name="tShirtSearch" finished-at="2017-12-26T11:18:54Z" duration-ms="874" status="PASS">
+        <test-method signature="VerifyPrintedDressSearch()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@548e6d58]" started-at="2017-12-26T11:49:42Z" name="VerifyPrintedDressSearch" finished-at="2017-12-26T11:49:43Z" duration-ms="978" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tShirtSearch -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@6ff29830]" started-at="2017-12-26T11:18:54Z" name="end" finished-at="2017-12-26T11:18:54Z" duration-ms="116" status="PASS">
+        </test-method> <!-- VerifyPrintedDressSearch -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@548e6d58]" started-at="2017-12-26T11:49:43Z" name="end" finished-at="2017-12-26T11:49:44Z" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

@@ -464,3 +464,11 @@
 2017-12-26 11:18:53 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
 2017-12-26 11:18:54 INFO  HomePage:155 - Valid message is : "T-SHIRT"
 2017-12-26 11:18:54 INFO  HomePageDisplayVerification:79 - ***********Finish tShirtSearch Test************
+2017-12-26 11:38:18 INFO  HomePageDisplayVerification:85 - ***********VerifyToptSearch************
+2017-12-26 11:38:18 INFO  HomePage:227 - Valid message is : "TOP"
+2017-12-26 11:38:18 INFO  HomePageDisplayVerification:89 - ***********Finish VerifyToptSearch Test************
+2017-12-26 11:48:48 INFO  HomePageDisplayVerification:95 - ***********VerifyPrintedDressSearch************
+2017-12-26 11:48:49 INFO  HomePage:236 - Valid message is : "PRINTED DRESS"
+2017-12-26 11:49:42 INFO  HomePageDisplayVerification:95 - ***********VerifyPrintedDressSearch************
+2017-12-26 11:49:43 INFO  HomePage:236 - Valid message is : "PRINTED DRESS"
+2017-12-26 11:49:43 INFO  HomePageDisplayVerification:99 - ***********Finish VerifyPrintedDressSearch Test************

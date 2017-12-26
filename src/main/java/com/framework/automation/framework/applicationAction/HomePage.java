@@ -80,6 +80,18 @@ public class HomePage {
 	@FindBy(xpath = ".//*[@id='center_column']/h1/span['T-Shirt']")
 	WebElement searchResut;
 	
+	@FindBy(xpath=".//*[@id='center_column']/h1/span['Top']")
+	WebElement searchResultTop;
+	
+	@FindBy(xpath=".//*[@id='center_column']/h1/span['Printed Dress']")
+	WebElement searchResulPrintedDress;
+	
+	
+	
+	
+	
+	
+	
 	
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -213,10 +225,17 @@ public class HomePage {
 		public void homePageSearch(String search) {
 			homePageSearchButton.sendKeys(search);
 			homePageSearchButtonClick.click();
-			
+			}
+		
+		public String topSearch() {
+			log.info("Valid message is : " + searchResultTop.getText());
+			return searchResultTop.getText();
 		}
 		
-		
+		public String printedDressSearch() {
+			log.info("Valid message is : " + searchResulPrintedDress.getText());
+			return searchResulPrintedDress.getText();
+		}
 		
 
 }
