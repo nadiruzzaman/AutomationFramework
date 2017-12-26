@@ -85,14 +85,25 @@ public class HomePage {
 		log.info("Click submitCreateButton and object is : " + SubmitCreatAnAccountbutton.toString());
 	}
 
-	public void vrifiedHomePageshoppingchart() {
+	public boolean vrifiedHomePageshoppingchart() {
+		try{
 		shoppingChartFromHomePage.isDisplayed();
 		log.info(" shoppingchart object is : " + shoppingChartFromHomePage.toString());
+		return true;
+		} catch (Exception e) {
+			return false;
+		}
 	}
 
-	public void vrifybestSellersButtonInHomepgae() {
+	public boolean vrifybestSellersButtonInHomepgae() {
+		try{
 		bestSellersButton.isDisplayed();
-		log.info("bestSellersButton");
+		log.info("bestSellersButton"); 
+		return true;
+		} catch (Exception e) {
+			return false;
+		}
+		
 
 	}
 
@@ -136,10 +147,16 @@ public class HomePage {
 		}
 	}
 
-	public void womenCategories() {
+	
+	public boolean womenCategories() {
+		try{
 		wonemCategories.click();
 		WomenButton.isDisplayed();
 		log.info(WomenButton);
+		return true;
+		}catch(Exception e) {
+			return false;
+		}
 
 	}
 
