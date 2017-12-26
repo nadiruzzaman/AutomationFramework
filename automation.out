@@ -369,6 +369,7 @@
 2017-12-23 10:24:23 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
 2017-12-23 10:24:25 INFO  HomePage:94 - [[RemoteWebDriver: chrome on MAC (c6771dc04156421ba57b37bbf12ecf8e)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-23 10:24:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
+<<<<<<< HEAD
 2017-12-24 10:55:23 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
 2017-12-24 10:56:36 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
 2017-12-24 10:58:07 INFO  HomePageDisplayVerification:35 - ***********HomePageDisplayVerificationTest************
@@ -397,3 +398,69 @@
 2017-12-24 12:39:28 INFO  HomePage:138 - [[RemoteWebDriver: chrome on MAC (68cf39454b9ddcc54eb2488492b61e3e)] -> xpath: .//button[@name='submitNewsletter']]
 2017-12-24 12:39:28 INFO  HomePage:106 - Error message is : Newsletter : This email address is already registered.
 2017-12-24 12:39:28 INFO  HomePageDisplayVerification:47 - ***********Finish verifyNewsLetterInvitation Test************
+=======
+<<<<<<< HEAD
+2017-12-24 10:29:24 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
+2017-12-24 10:29:25 INFO  HomePage:99 - [[RemoteWebDriver: chrome on MAC (701f9dd60ecc625bacee24db1bd89f15)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
+2017-12-24 10:29:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
+2017-12-24 10:29:25 INFO  HomePageDisplayVerification:34 - ***********HomePageDisplayVerificationTest************
+2017-12-24 10:29:26 INFO  HomePage:113 - [[RemoteWebDriver: chrome on MAC (701f9dd60ecc625bacee24db1bd89f15)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-24 10:29:26 INFO  HomePageDisplayVerification:37 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-24 10:29:26 INFO  HomePageDisplayVerification:42 - **********bestSellersButtonTest************
+2017-12-24 10:34:22 INFO  HomePageDisplayVerification:42 - **********bestSellersButtonTest************
+2017-12-24 10:34:23 INFO  HomePage:75 - bestSellersButton
+2017-12-24 10:34:23 INFO  HomePageDisplayVerification:45 - *********** vrifybestSellersButtonInHomepgaeTest************
+=======
+2017-12-24 12:08:11 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
+2017-12-24 12:08:12 INFO  HomePage:93 - [[RemoteWebDriver: chrome on MAC (2314be78f06dbd138bf5cbb7490d9c74)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-24 12:08:12 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
+2017-12-24 12:08:12 INFO  HomePageDisplayVerification:34 - ***********HomePageDisplayVerificationTest************
+2017-12-24 12:08:12 INFO  HomePage:107 - [[RemoteWebDriver: chrome on MAC (2314be78f06dbd138bf5cbb7490d9c74)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-24 12:08:12 INFO  HomePageDisplayVerification:37 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-24 12:08:12 INFO  HomePageDisplayVerification:42 - ***********womencategoriesTest************
+2017-12-24 12:08:14 INFO  HomePage:118 - [[RemoteWebDriver: chrome on MAC (2314be78f06dbd138bf5cbb7490d9c74)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-24 12:08:14 INFO  HomePageDisplayVerification:45 - ***********Finish womencategories Test************
+2017-12-24 12:14:33 INFO  HomePageDisplayVerification:42 - ***********womencategoriesTest************
+2017-12-24 12:14:34 INFO  HomePage:118 - [[RemoteWebDriver: chrome on MAC (2100e7e0ee145e88d79c9f910b00c737)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-24 12:14:34 INFO  HomePageDisplayVerification:45 - ***********Finish womencategories Test************
+>>>>>>> origin/Konok
+>>>>>>> 173ccd3efb46b51ac386b5983689c2ac2c05d151
+2017-12-26 09:59:12 INFO  HomePageDisplayVerification:75 - ***********verifyAdCartPrintedDress************
+2017-12-26 10:05:33 INFO  HomePageDisplayVerification:75 - ***********verifyAdCartPrintedDress************
+2017-12-26 10:09:11 INFO  HomePageDisplayVerification:75 - ***********verifyAdCartPrintedDress************
+2017-12-26 10:09:38 INFO  HomePageDisplayVerification:25 - ***********Verified WomendressButton Test************
+2017-12-26 10:09:40 INFO  HomePage:156 - [[RemoteWebDriver: chrome on MAC (95317a0f1faad8d526b10c9f71b00280)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-26 10:09:40 INFO  HomePageDisplayVerification:28 - ***********Finish WomendressButton Test************
+2017-12-26 10:09:40 INFO  HomePageDisplayVerification:75 - ***********verifyAdCartPrintedDress************
+2017-12-26 10:09:41 INFO  HomePageDisplayVerification:34 - ***********HomePageDisplayVerificationTest************
+2017-12-26 10:09:41 INFO  HomePage:168 - [[RemoteWebDriver: chrome on MAC (95317a0f1faad8d526b10c9f71b00280)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-26 10:09:41 INFO  HomePageDisplayVerification:37 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-26 10:09:41 INFO  HomePageDisplayVerification:66 - ***********verifyInformationSpecialsTopSeller************
+2017-12-26 10:09:42 INFO  HomePage:199 - [[RemoteWebDriver: chrome on MAC (95317a0f1faad8d526b10c9f71b00280)] -> xpath: .//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']]
+2017-12-26 10:09:42 INFO  HomePageDisplayVerification:69 - ***********Finish verifyInformationSpecialsTopSeller Test************
+2017-12-26 10:09:42 INFO  HomePageDisplayVerification:57 - ***********verifyNewsLetterInvitation************
+2017-12-26 10:09:43 INFO  HomePage:192 - [[RemoteWebDriver: chrome on MAC (95317a0f1faad8d526b10c9f71b00280)] -> xpath: .//button[@name='submitNewsletter']]
+2017-12-26 10:09:43 INFO  HomePage:118 - Error message is : Newsletter : This email address is already registered.
+2017-12-26 10:09:43 INFO  HomePageDisplayVerification:61 - ***********Finish verifyNewsLetterInvitation Test************
+2017-12-26 10:09:43 INFO  HomePageDisplayVerification:42 - **********bestSellersButtonTest************
+2017-12-26 10:09:43 INFO  HomePage:127 - bestSellersButton
+2017-12-26 10:09:43 INFO  HomePageDisplayVerification:45 - *********** vrifybestSellersButtonInHomepgaeTest************
+2017-12-26 11:00:21 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:01:03 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:02:25 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:06:28 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:09:40 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:09:41 INFO  HomePageDisplayVerification:78 - ***********Finish tShirtSearch Test************
+2017-12-26 11:13:20 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:13:21 INFO  HomePage:155 - Valid message is : "T-SHIRT"
+2017-12-26 11:14:02 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:14:02 INFO  HomePage:155 - Valid message is : "T-SHIRT"
+2017-12-26 11:15:03 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:15:04 INFO  HomePage:155 - Valid message is : "T-SHIRT"
+2017-12-26 11:15:40 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:15:41 INFO  HomePage:155 - Valid message is : "T-SHIRT"
+2017-12-26 11:16:17 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:16:18 INFO  HomePage:155 - Valid message is : "T-SHIRT"
+2017-12-26 11:18:53 INFO  HomePageDisplayVerification:75 - ***********tShirtSearch************
+2017-12-26 11:18:54 INFO  HomePage:155 - Valid message is : "T-SHIRT"
+2017-12-26 11:18:54 INFO  HomePageDisplayVerification:79 - ***********Finish tShirtSearch Test************
