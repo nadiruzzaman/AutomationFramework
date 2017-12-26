@@ -46,6 +46,14 @@ public class HomePageDisplayVerification extends TestBase {
 	 Assert.assertEquals(homepage.HomePageNewsLetterInvitaionResult(),"Newsletter : This email address is already registered.");
 	 log.info("***********Finish verifyNewsLetterInvitation Test************");
 	 
+	}
+		@Test
+		public void verifyInformationSpecialsTopSeller(){
+		 log.info("***********verifyInformationSpecialsTopSeller************");
+		 homepage = new HomePage(driver);
+		 homepage.InformationSpecialsTopSeller();
+		 log.info("***********Finish verifyInformationSpecialsTopSeller Test************");
+	 
 }
 	
 	@AfterTest

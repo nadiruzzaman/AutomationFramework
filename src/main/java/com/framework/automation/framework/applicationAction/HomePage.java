@@ -49,6 +49,11 @@ public class HomePage {
 	
 	@FindBy(xpath=".//*[@id='columns']/p[@class='alert alert-danger']") WebElement NewsLetterInvitaionResult;
 	
+	@FindBy(xpath=".//*[@id='block_various_links_footer']/ul/li[1]/a") WebElement SpecialsButton;
+	
+	@FindBy(xpath=".//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']") WebElement InformationSpecialsTopSeller;
+	
+	
 	
 	
 	
@@ -134,6 +139,13 @@ log.info("Error message is : "+authenticationFailed.getText());
 			
 			
 		}
-	}
+		public void InformationSpecialsTopSeller(){
+			SpecialsButton.click();
+			InformationSpecialsTopSeller.isDisplayed();	
+			log.info(InformationSpecialsTopSeller);
+			
+				
+		}
+}
 
 

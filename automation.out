@@ -384,3 +384,16 @@
 2017-12-24 11:06:17 INFO  HomePage:133 - [[RemoteWebDriver: chrome on MAC (a2bc6a18a3282e8f623a61b084471c4e)] -> xpath: .//button[@name='submitNewsletter']]
 2017-12-24 11:06:17 INFO  HomePage:101 - Error message is : Newsletter : This email address is already registered.
 2017-12-24 11:06:17 INFO  HomePageDisplayVerification:47 - ***********Finish verifyNewsLetterInvitation Test************
+2017-12-24 12:39:24 INFO  HomePageDisplayVerification:25 - ***********Verified WomendressButton Test************
+2017-12-24 12:39:25 INFO  HomePage:114 - [[RemoteWebDriver: chrome on MAC (68cf39454b9ddcc54eb2488492b61e3e)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
+2017-12-24 12:39:25 INFO  HomePageDisplayVerification:28 - ***********Finish WomendressButton Test************
+2017-12-24 12:39:25 INFO  HomePageDisplayVerification:35 - ***********HomePageDisplayVerificationTest************
+2017-12-24 12:39:26 INFO  HomePage:128 - [[RemoteWebDriver: chrome on MAC (68cf39454b9ddcc54eb2488492b61e3e)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-24 12:39:26 INFO  HomePageDisplayVerification:38 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-24 12:39:26 INFO  HomePageDisplayVerification:52 - ***********verifyInformationSpecialsTopSeller************
+2017-12-24 12:39:26 INFO  HomePage:145 - [[RemoteWebDriver: chrome on MAC (68cf39454b9ddcc54eb2488492b61e3e)] -> xpath: .//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']]
+2017-12-24 12:39:26 INFO  HomePageDisplayVerification:55 - ***********Finish verifyInformationSpecialsTopSeller Test************
+2017-12-24 12:39:26 INFO  HomePageDisplayVerification:43 - ***********verifyNewsLetterInvitation************
+2017-12-24 12:39:28 INFO  HomePage:138 - [[RemoteWebDriver: chrome on MAC (68cf39454b9ddcc54eb2488492b61e3e)] -> xpath: .//button[@name='submitNewsletter']]
+2017-12-24 12:39:28 INFO  HomePage:106 - Error message is : Newsletter : This email address is already registered.
+2017-12-24 12:39:28 INFO  HomePageDisplayVerification:47 - ***********Finish verifyNewsLetterInvitation Test************
