@@ -43,6 +43,24 @@ public void validEmailforCreateAccount(){
 log.info("***********Finish validEmailforCreateAccount Test************");
 }
 
+@Test
+public void validEmailforCreateAccountOne(){
+ log.info("***********Starting validEmailforCreateAccount Test************");
+ homepage = new HomePage(driver);
+ homepage.correctCreateAccount("automation@gmil.com");
+ Assert.assertEquals(homepage.validCreateAccount(),"AUTHENTICATION");
+log.info("***********Finish validEmailforCreateAccount Test************");
+}
+
+
+@Test
+public void validEmailforCreateAccountTwo(){
+ log.info("***********Starting validEmailforCreateAccount Test************");
+ homepage = new HomePage(driver);
+ homepage.correctCreateAccount("automation@gmil.com");
+ Assert.assertEquals(homepage.validCreateAccount(),"AUTHENTICATION");
+log.info("***********Finish validEmailforCreateAccount Test************");
+}
 	@AfterTest 
 	public void end(){
 	driver.close();

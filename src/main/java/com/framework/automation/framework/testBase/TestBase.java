@@ -18,6 +18,7 @@ public class TestBase {
 	private static ChromeDriverService service;
 	String url = "http://automationpractice.com/index.php";
 	String browser = "chrome";
+
 	public void init() throws IOException {
 		selectBrowser(browser);
 		getUrl(url);
@@ -34,15 +35,15 @@ public class TestBase {
 			service.start();
 			log.info("creating object of  " + browser);
 			driver = new RemoteWebDriver(service.getUrl(), DesiredCapabilities.chrome());
-			
+
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.firefox.marionette", System.getProperty("user.dir") + "/driver/geckodriver");
-			
+
 			log.info("creating object of  " + browser);
-			driver=new FirefoxDriver();
+			driver = new FirefoxDriver();
 
 		}
-		
+
 	}
 
 	public void getUrl(String url) {

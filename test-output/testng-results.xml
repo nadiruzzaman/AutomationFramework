@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="2820" started-at="2017-12-24T15:34:20Z" finished-at="2017-12-24T15:34:23Z">
     <groups>
     </groups>
@@ -16,6 +17,22 @@
           </reporter-output>
         </test-method> <!-- vrifybestSellersButtonInHomepgae -->
         <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="end" is-config="true" duration-ms="107" started-at="2017-12-24T10:34:23Z" finished-at="2017-12-24T10:34:23Z">
+=======
+  <suite name="Default suite" duration-ms="4044" started-at="2017-12-24T17:14:30Z" finished-at="2017-12-24T17:14:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4044" started-at="2017-12-24T17:14:30Z" finished-at="2017-12-24T17:14:34Z">
+      <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="setup" is-config="true" duration-ms="2584" started-at="2017-12-24T12:14:30Z" finished-at="2017-12-24T12:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifywomencategories()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="verifywomencategories" duration-ms="1315" started-at="2017-12-24T12:14:33Z" finished-at="2017-12-24T12:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywomencategories -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="end" is-config="true" duration-ms="136" started-at="2017-12-24T12:14:34Z" finished-at="2017-12-24T12:14:34Z">
+>>>>>>> origin/Konok
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

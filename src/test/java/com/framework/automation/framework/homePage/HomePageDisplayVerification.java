@@ -28,27 +28,33 @@ public class HomePageDisplayVerification extends TestBase {
 
 	}
 
-	
 	@Test
-	public void verifyContactPageHomeLogo(){
-	 log.info("***********HomePageDisplayVerificationTest************");
-	 homepage = new HomePage(driver);
-	 homepage.verifyContactHomeLogo();
-	 log.info("***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************");
-}
+	public void verifyContactPageHomeLogo() {
+		log.info("***********HomePageDisplayVerificationTest************");
+		homepage = new HomePage(driver);
+		homepage.verifyContactHomeLogo();
+		log.info("***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************");
+	}
 
 	@Test
-	public void vrifybestSellersButtonInHomepgae(){
-	 log.info("**********bestSellersButtonTest************");
-	 homepage = new HomePage(driver);
-	 homepage.vrifybestSellersButtonInHomepgae();
-	 log.info("*********** vrifybestSellersButtonInHomepgaeTest************");
+	public void vrifybestSellersButtonInHomepgae() {
+		log.info("**********bestSellersButtonTest************");
+		homepage = new HomePage(driver);
+		homepage.vrifybestSellersButtonInHomepgae();
+		log.info("*********** vrifybestSellersButtonInHomepgaeTest************");
 	}
+
+	public void verifywomencategories() {
+		log.info("***********womencategoriesTest************");
+		homepage = new HomePage(driver);
+		homepage.womenCategories();
+		log.info("***********Finish womencategories Test************");
+	}
+
 	@AfterTest
 	public void end() {
 		driver.close();
 
 	}
-	
 
 }
