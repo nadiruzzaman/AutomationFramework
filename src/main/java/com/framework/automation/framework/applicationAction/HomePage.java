@@ -1,8 +1,10 @@
 package com.framework.automation.framework.applicationAction;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -11,6 +13,7 @@ public class HomePage {
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
 
 	WebDriver driver;
+<<<<<<< HEAD
 
 	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a['Sign in']")
 	WebElement signIn;
@@ -39,6 +42,45 @@ public class HomePage {
 	@FindBy(xpath = ".//div[@class=\"col-sm-4 clearfix\"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']")
 	WebElement shoppingChartFromHomePage;
 
+=======
+
+	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a['Sign in']")
+	WebElement signIn;
+	@FindBy(id="newsletter-input") WebElement EnterEmailAddressForEmailAddressForNewsLetter;
+	
+	@FindBy(xpath=".//button[@name='submitNewsletter']") WebElement NewsLetterClickButton;
+	
+	@FindBy(xpath=".//*[@id='columns']/p[@class='alert alert-danger']") WebElement NewsLetterInvitaionResult;
+	
+	@FindBy(xpath=".//*[@id='block_various_links_footer']/ul/li[1]/a") WebElement SpecialsButton;
+	
+	@FindBy(xpath=".//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']") WebElement InformationSpecialsTopSeller;
+
+	@FindBy(id = "email")
+	WebElement logInemailAddress;
+
+	@FindBy(id = "passwd")
+	WebElement logInPassword;
+
+	@FindBy(id = "SubmitLogin")
+	WebElement submitLogInButton;
+
+	@FindBy(xpath = ".//ol/li['Authentication failed.']")
+	WebElement authenticationFailed;
+
+	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a[@title='View my customer account']/span['k u']")
+	WebElement authenticationValidWithAccountName;
+
+	@FindBy(id = "email_create")
+	WebElement EmailAddressForCreateAccount;
+
+	@FindBy(id = "SubmitCreate")
+	WebElement SubmitCreatAnAccountbutton;
+
+	@FindBy(xpath = ".//div[@class=\"col-sm-4 clearfix\"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']")
+	WebElement shoppingChartFromHomePage;
+
+>>>>>>> origin/SearchTest
 	@FindBy(xpath = ".//h1['Create an account']")
 	WebElement validCreatedAccount;
 
@@ -59,7 +101,33 @@ public class HomePage {
 
 	@FindBy(xpath = ".//section['Categories']/div/div/ul/li/a['Women']")
 	WebElement wonemCategories;
+<<<<<<< HEAD
 
+=======
+	
+	@FindBy(id="search_query_top")
+	WebElement homePageSearchButton;
+	
+	@FindBy(xpath = ".//*[@id='searchbox']/button[@type=\"submit\"]")
+	WebElement homePageSearchButtonClick;
+	
+	@FindBy(xpath = ".//*[@id='center_column']/h1/span['T-Shirt']")
+	WebElement searchResut;
+	
+	@FindBy(xpath=".//*[@id='center_column']/h1/span['Top']")
+	WebElement searchResultTop;
+	
+	@FindBy(xpath=".//*[@id='center_column']/h1/span['Printed Dress']")
+	WebElement searchResulPrintedDress;
+	
+	
+	
+	
+	
+	
+	
+	
+>>>>>>> origin/SearchTest
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
@@ -95,7 +163,19 @@ public class HomePage {
 		}
 	}
 
+<<<<<<< HEAD
 	public boolean vrifybestSellersButtonInHomepgae() {
+=======
+	
+	public String HomePageNewsLetterInvitaionResult(){
+		log.info("Error message is : "+NewsLetterInvitaionResult.getText());
+				return NewsLetterInvitaionResult.getText();
+			}
+
+
+	public boolean vrifybestSellersButtonInHomepgae() {
+
+>>>>>>> origin/SearchTest
 		try{
 		bestSellersButton.isDisplayed();
 		log.info("bestSellersButton"); 
@@ -111,6 +191,7 @@ public class HomePage {
 		log.info("Error message is : " + authenticationFailed.getText());
 		return authenticationFailed.getText();
 	}
+<<<<<<< HEAD
 
 	public String getValidLogInText() {
 		log.info("Valid message is : " + authenticationValidWithAccountName.getText());
@@ -122,6 +203,23 @@ public class HomePage {
 		return validCreatedAccount.getText();
 	}
 
+=======
+
+	public String getValidLogInText() {
+		log.info("Valid message is : " + authenticationValidWithAccountName.getText());
+		return authenticationValidWithAccountName.getText();
+	}
+
+	public String validCreateAccount() {
+		log.info("Valid message is : " + validCreatedAccount.getText());
+		return validCreatedAccount.getText();
+	}
+
+	public String validsearchresult() {
+		log.info("Valid message is : " + searchResut.getText());
+		return searchResut.getText();
+	}
+>>>>>>> origin/SearchTest
 	public boolean VerifiedWomenButton() {
 		try {
 			dressButtonFromHomepage.click();
@@ -159,5 +257,49 @@ public class HomePage {
 		}
 
 	}
+<<<<<<< HEAD
 
 }
+=======
+
+		public void NewsLetterInvitation(String Email){
+			EnterEmailAddressForEmailAddressForNewsLetter.sendKeys(Email);
+			NewsLetterClickButton.click();
+			log.info(NewsLetterClickButton);			
+			
+			
+		}
+		public void InformationSpecialsTopSeller(){
+			SpecialsButton.click();
+			InformationSpecialsTopSeller.isDisplayed();	
+			log.info(InformationSpecialsTopSeller);
+			
+				
+		}
+		
+		
+		
+		public void homePageSearch(String search) {
+			homePageSearchButton.sendKeys(search);
+			homePageSearchButtonClick.click();
+			}
+		
+		public String topSearch() {
+			log.info("Valid message is : " + searchResultTop.getText());
+			return searchResultTop.getText();
+		}
+		
+		public String printedDressSearch() {
+			log.info("Valid message is : " + searchResulPrintedDress.getText());
+			return searchResulPrintedDress.getText();
+		}
+		
+
+}
+
+
+
+
+
+
+>>>>>>> origin/SearchTest
