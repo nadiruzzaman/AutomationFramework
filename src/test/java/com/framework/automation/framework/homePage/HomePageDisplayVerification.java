@@ -52,57 +52,56 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********Finish womencategories Test************");
 	}
 
-<<<<<<< HEAD
-=======
 	@Test
-	public void verifyNewsLetterInvitation(){
-	 log.info("***********verifyNewsLetterInvitation************");
-	 homepage = new HomePage(driver);
-	 homepage.NewsLetterInvitation("kamaluddinitqa@gmail.com");
-	 Assert.assertEquals(homepage.HomePageNewsLetterInvitaionResult(),"Newsletter : This email address is already registered.");
-	 log.info("***********Finish verifyNewsLetterInvitation Test************");
-	 
+	public void verifyNewsLetterInvitation() {
+		log.info("***********verifyNewsLetterInvitation************");
+		homepage = new HomePage(driver);
+		homepage.NewsLetterInvitation("kamaluddinitqa@gmail.com");
+		Assert.assertEquals(homepage.HomePageNewsLetterInvitaionResult(),
+				"Newsletter : This email address is already registered.");
+		log.info("***********Finish verifyNewsLetterInvitation Test************");
+
 	}
-		@Test
-		public void verifyInformationSpecialsTopSeller(){
-		 log.info("***********verifyInformationSpecialsTopSeller************");
-		 homepage = new HomePage(driver);
-		 homepage.InformationSpecialsTopSeller();
-		 log.info("***********Finish verifyInformationSpecialsTopSeller Test************");
-	 
-}
-		
-		@Test
-		public void VerifyTShirtSearch(){
-		 log.info("***********tShirtSearch************");
-		 homepage = new HomePage(driver);
-		 homepage.homePageSearch("T-SHIRT");
-		 Assert.assertEquals(homepage.validsearchresult(),"\"T-SHIRT\"");
-		 log.info("***********Finish tShirtSearch Test************");
-	 
-}
-	
-		@Test
-		public void VerifyToptSearch(){
-		 log.info("***********VerifyToptSearch************");
-		 homepage = new HomePage(driver);
-		 homepage.homePageSearch("Top");
-		 Assert.assertEquals(homepage.topSearch(),"\"TOP\"");
-		 log.info("***********Finish VerifyToptSearch Test************");
-	 
-}
 
-		@Test
-		public void VerifyPrintedDressSearch(){
-		 log.info("***********VerifyPrintedDressSearch************");
-		 homepage = new HomePage(driver);
-		 homepage.homePageSearch("Printed Dress");
-		 Assert.assertEquals(homepage.printedDressSearch(),"\"PRINTED DRESS\"");
-		 log.info("***********Finish VerifyPrintedDressSearch Test************");
-	 
-}
+	@Test
+	public void verifyInformationSpecialsTopSeller() {
+		log.info("***********verifyInformationSpecialsTopSeller************");
+		homepage = new HomePage(driver);
+		homepage.InformationSpecialsTopSeller();
+		log.info("***********Finish verifyInformationSpecialsTopSeller Test************");
 
->>>>>>> origin/SearchTest
+	}
+
+	@Test
+	public void VerifyTShirtSearch() {
+		log.info("***********tShirtSearch************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("T-SHIRT");
+		Assert.assertEquals(homepage.validsearchresult(), "\"T-SHIRT\"");
+		log.info("***********Finish tShirtSearch Test************");
+
+	}
+
+	@Test
+	public void VerifyToptSearch() {
+		log.info("***********VerifyToptSearch************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("Top");
+		Assert.assertEquals(homepage.topSearch(), "\"TOP\"");
+		log.info("***********Finish VerifyToptSearch Test************");
+
+	}
+
+	@Test
+	public void VerifyPrintedDressSearch() {
+		log.info("***********VerifyPrintedDressSearch************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("Printed Dress");
+		Assert.assertEquals(homepage.printedDressSearch(), "\"PRINTED DRESS\"");
+		log.info("***********Finish VerifyPrintedDressSearch Test************");
+
+	}
+
 	@AfterTest
 	public void end() {
 		driver.close();
