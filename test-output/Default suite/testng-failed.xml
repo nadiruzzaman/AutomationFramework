@@ -5,15 +5,7 @@
     <classes>
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
         <methods>
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <include name="vrifybestSellersButtonInHomepgae"/>
-=======
-          <include name="verifywomencategories"/>
->>>>>>> origin/Konok
-=======
-          <include name="VerifyPrintedDressSearch"/>
->>>>>>> origin/SearchTest
+          <include name="verifycallUsNowHomePageButton"/>
         </methods>
       </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
     </classes>

@@ -1,13 +1,13 @@
 package com.framework.automation.framework.applicationAction;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+
+import jdk.internal.jline.internal.Log;
 
 public class HomePage {
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
@@ -91,6 +91,14 @@ public class HomePage {
 
 	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")
 	WebElement searchResulPrintedDress;
+	
+	@FindBy(xpath = ".//*[@id='block_contact_infos']/div/h4['Store information']")
+	WebElement storeInformationHomePageButton;
+	
+	@FindBy(xpath = ".//*[@id='block_contact_infos']//li[2]")
+	WebElement callUsNowHomePageButton;
+	
+	
 
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -229,5 +237,19 @@ public class HomePage {
 		log.info("Valid message is : " + searchResulPrintedDress.getText());
 		return searchResulPrintedDress.getText();
 	}
+	public void storeInformationInHomePage() {
+		storeInformationHomePageButton.isDisplayed();
+		log.info(storeInformationHomePageButton);
+	}
 
+public boolean callUsNowHomePageButton() {
+	try {
+		callUsNowHomePageButton.isDisplayed();
+		log.info(callUsNowHomePageButton);
+		return true;
+
+	} catch (Exception e) {
+		return false;
+	}
+}
 }

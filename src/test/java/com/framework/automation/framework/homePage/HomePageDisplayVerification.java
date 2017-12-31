@@ -99,8 +99,25 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.homePageSearch("Printed Dress");
 		Assert.assertEquals(homepage.printedDressSearch(), "\"PRINTED DRESS\"");
 		log.info("***********Finish VerifyPrintedDressSearch Test************");
+		
 
 	}
+@Test 
+public void verifyHomePageStoreInformation() {
+	log.info("**********VerifyHomePageStoreInformation*********");
+	homepage =new HomePage(driver);
+	homepage.storeInformationInHomePage();
+	log.info("**********Finish VerifyHomePageStoreInformation*********");
+}
+
+@Test 
+public void verifycallUsNowHomePageButton() {
+	log.info("**********verifycallUsNowHomePageButton*********");
+	homepage =new HomePage(driver);
+	homepage.callUsNowHomePageButton();
+	Assert.assertEquals("Call us now:", "Call us now:");
+	log.info("**********Finish verifycallUsNowHomePageButton*********");
+}
 
 	@AfterTest
 	public void end() {
