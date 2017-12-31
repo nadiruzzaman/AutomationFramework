@@ -91,6 +91,12 @@ public class HomePage {
 
 	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")
 	WebElement searchResulPrintedDress;
+	
+	@FindBy(xpath = ".//*[@id='social_block']/h4['@Follow us']")
+	WebElement FollowUs;
+	
+	@FindBy(xpath = ".//*[@id='social_block']//li[1]['@class=\"facebook\"']")
+	WebElement FacebookLogo;
 
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -229,5 +235,25 @@ public class HomePage {
 		log.info("Valid message is : " + searchResulPrintedDress.getText());
 		return searchResulPrintedDress.getText();
 	}
+	
+	public boolean FollowUs(){
+		try {
+	FollowUs.isDisplayed();
+		log.info(FollowUs);
+		return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+}
+	public boolean FacebookLogo() {
+		try {
+			FacebookLogo.isDisplayed();
+			log.info(FacebookLogo);
+			return true;
 
+		} catch (Exception e) {
+			return false;
+		}
+}
 }

@@ -1,55 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <suite name="Default suite" duration-ms="2820" started-at="2017-12-24T15:34:20Z" finished-at="2017-12-24T15:34:23Z">
+  <suite name="Default suite" duration-ms="3931" started-at="2017-12-31T16:18:39Z" finished-at="2017-12-31T16:18:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2820" started-at="2017-12-24T15:34:20Z" finished-at="2017-12-24T15:34:23Z">
+    <test name="Default test" duration-ms="3931" started-at="2017-12-31T16:18:39Z" finished-at="2017-12-31T16:18:43Z">
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="setup" is-config="true" duration-ms="2636" started-at="2017-12-24T10:34:20Z" finished-at="2017-12-24T10:34:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@59ec2012]" name="setup" is-config="true" duration-ms="3755" started-at="2017-12-31T11:18:39Z" finished-at="2017-12-31T11:18:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="vrifybestSellersButtonInHomepgae()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="vrifybestSellersButtonInHomepgae" duration-ms="65" started-at="2017-12-24T10:34:22Z" finished-at="2017-12-24T10:34:23Z">
+        <test-method status="PASS" signature="FacebookLogo()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@59ec2012]" name="FacebookLogo" duration-ms="59" started-at="2017-12-31T11:18:43Z" finished-at="2017-12-31T11:18:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vrifybestSellersButtonInHomepgae -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="end" is-config="true" duration-ms="107" started-at="2017-12-24T10:34:23Z" finished-at="2017-12-24T10:34:23Z">
-=======
-  <suite name="Default suite" duration-ms="4044" started-at="2017-12-24T17:14:30Z" finished-at="2017-12-24T17:14:34Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="4044" started-at="2017-12-24T17:14:30Z" finished-at="2017-12-24T17:14:34Z">
-      <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="setup" is-config="true" duration-ms="2584" started-at="2017-12-24T12:14:30Z" finished-at="2017-12-24T12:14:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifywomencategories()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="verifywomencategories" duration-ms="1315" started-at="2017-12-24T12:14:33Z" finished-at="2017-12-24T12:14:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifywomencategories -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@7cd62f43]" name="end" is-config="true" duration-ms="136" started-at="2017-12-24T12:14:34Z" finished-at="2017-12-24T12:14:34Z">
->>>>>>> origin/Konok
-=======
-  <suite started-at="2017-12-26T16:49:40Z" name="Default suite" finished-at="2017-12-26T16:49:44Z" duration-ms="3880">
-    <groups>
-    </groups>
-    <test started-at="2017-12-26T16:49:40Z" name="Default test" finished-at="2017-12-26T16:49:44Z" duration-ms="3880">
-      <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@548e6d58]" started-at="2017-12-26T11:49:40Z" name="setup" finished-at="2017-12-26T11:49:42Z" duration-ms="2784" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyPrintedDressSearch()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@548e6d58]" started-at="2017-12-26T11:49:42Z" name="VerifyPrintedDressSearch" finished-at="2017-12-26T11:49:43Z" duration-ms="978" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyPrintedDressSearch -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@548e6d58]" started-at="2017-12-26T11:49:43Z" name="end" finished-at="2017-12-26T11:49:44Z" duration-ms="109" status="PASS">
->>>>>>> origin/SearchTest
+        </test-method> <!-- FacebookLogo -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@59ec2012]" name="end" is-config="true" duration-ms="107" started-at="2017-12-31T11:18:43Z" finished-at="2017-12-31T11:18:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

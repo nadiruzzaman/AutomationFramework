@@ -465,3 +465,68 @@
 2017-12-26 11:49:43 INFO  HomePage:236 - Valid message is : "PRINTED DRESS"
 2017-12-26 11:49:43 INFO  HomePageDisplayVerification:99 - ***********Finish VerifyPrintedDressSearch Test************
 >>>>>>> origin/SearchTest
+2017-12-31 10:14:18 INFO  HomePageDisplayVerification:106 - ***********FollowUs************
+2017-12-31 10:14:18 INFO  HomePageDisplayVerification:97 - ***********VerifyPrintedDressSearch************
+2017-12-31 10:14:19 INFO  HomePage:232 - Valid message is : "PRINTED DRESS"
+2017-12-31 10:14:19 INFO  HomePageDisplayVerification:101 - ***********Finish VerifyPrintedDressSearch Test************
+2017-12-31 10:14:19 INFO  HomePageDisplayVerification:77 - ***********tShirtSearch************
+2017-12-31 10:14:20 INFO  HomePage:166 - Valid message is : 0 results have been found.
+2017-12-31 10:14:20 INFO  HomePageDisplayVerification:87 - ***********VerifyToptSearch************
+2017-12-31 10:14:20 INFO  HomePage:227 - Valid message is : 0 results have been found.
+2017-12-31 10:14:20 INFO  HomePageDisplayVerification:25 - ***********Verified WomendressButton Test************
+2017-12-31 10:14:21 INFO  HomePage:175 - [[RemoteWebDriver: chrome on MAC (e62ac9d96dd2734b7ee675ba033b2fb5)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-31 10:14:21 INFO  HomePageDisplayVerification:28 - ***********Finish WomendressButton Test************
+2017-12-31 10:14:21 INFO  HomePageDisplayVerification:34 - ***********HomePageDisplayVerificationTest************
+2017-12-31 10:14:22 INFO  HomePage:187 - [[RemoteWebDriver: chrome on MAC (e62ac9d96dd2734b7ee675ba033b2fb5)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-31 10:14:22 INFO  HomePageDisplayVerification:37 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-31 10:14:22 INFO  HomePageDisplayVerification:68 - ***********verifyInformationSpecialsTopSeller************
+2017-12-31 10:14:22 INFO  HomePage:217 - [[RemoteWebDriver: chrome on MAC (e62ac9d96dd2734b7ee675ba033b2fb5)] -> xpath: .//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']]
+2017-12-31 10:14:23 INFO  HomePageDisplayVerification:71 - ***********Finish verifyInformationSpecialsTopSeller Test************
+2017-12-31 10:14:23 INFO  HomePageDisplayVerification:57 - ***********verifyNewsLetterInvitation************
+2017-12-31 10:14:24 INFO  HomePage:210 - [[RemoteWebDriver: chrome on MAC (e62ac9d96dd2734b7ee675ba033b2fb5)] -> xpath: .//button[@name='submitNewsletter']]
+2017-12-31 10:14:24 INFO  HomePage:134 - Error message is : Newsletter : This email address is already registered.
+2017-12-31 10:14:24 INFO  HomePageDisplayVerification:62 - ***********Finish verifyNewsLetterInvitation Test************
+2017-12-31 10:14:24 INFO  HomePageDisplayVerification:42 - **********bestSellersButtonTest************
+2017-12-31 10:14:24 INFO  HomePage:142 - bestSellersButton
+2017-12-31 10:14:24 INFO  HomePageDisplayVerification:45 - *********** vrifybestSellersButtonInHomepgaeTest************
+2017-12-31 10:28:25 INFO  HomePageDisplayVerification:106 - ***********FollowUs************
+2017-12-31 10:38:18 INFO  HomePageDisplayVerification:106 - ***********FollowUs************
+2017-12-31 10:38:18 INFO  HomePage:237 - [[RemoteWebDriver: chrome on MAC (9ec018e1134373f638b0b6a9815d73bc)] -> xpath: .//*[@id='social_block']/h4['@Follow us']]
+2017-12-31 10:41:43 INFO  HomePageDisplayVerification:106 - ***********FollowUs************
+2017-12-31 10:41:43 INFO  HomePage:237 - [[RemoteWebDriver: chrome on MAC (8214c04044fec3fa763e048f81c25c5f)] -> xpath: .//*[@id='social_block']/h4['@Follow us']]
+2017-12-31 10:41:43 INFO  HomePageDisplayVerification:110 - ***********Finish FollowUS Test************
+2017-12-31 10:41:43 INFO  HomePageDisplayVerification:97 - ***********VerifyPrintedDressSearch************
+2017-12-31 10:41:44 INFO  HomePage:232 - Valid message is : "PRINTED DRESS"
+2017-12-31 10:41:44 INFO  HomePageDisplayVerification:101 - ***********Finish VerifyPrintedDressSearch Test************
+2017-12-31 10:41:44 INFO  HomePageDisplayVerification:77 - ***********tShirtSearch************
+2017-12-31 10:41:45 INFO  HomePage:166 - Valid message is : 0 results have been found.
+2017-12-31 10:41:45 INFO  HomePageDisplayVerification:87 - ***********VerifyToptSearch************
+2017-12-31 10:41:45 INFO  HomePage:227 - Valid message is : 0 results have been found.
+2017-12-31 10:41:45 INFO  HomePageDisplayVerification:25 - ***********Verified WomendressButton Test************
+2017-12-31 10:41:46 INFO  HomePage:175 - [[RemoteWebDriver: chrome on MAC (8214c04044fec3fa763e048f81c25c5f)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-31 10:41:46 INFO  HomePageDisplayVerification:28 - ***********Finish WomendressButton Test************
+2017-12-31 10:41:46 INFO  HomePageDisplayVerification:34 - ***********HomePageDisplayVerificationTest************
+2017-12-31 10:41:47 INFO  HomePage:187 - [[RemoteWebDriver: chrome on MAC (8214c04044fec3fa763e048f81c25c5f)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-31 10:41:47 INFO  HomePageDisplayVerification:37 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-31 10:41:47 INFO  HomePageDisplayVerification:68 - ***********verifyInformationSpecialsTopSeller************
+2017-12-31 10:41:48 INFO  HomePage:217 - [[RemoteWebDriver: chrome on MAC (8214c04044fec3fa763e048f81c25c5f)] -> xpath: .//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']]
+2017-12-31 10:41:48 INFO  HomePageDisplayVerification:71 - ***********Finish verifyInformationSpecialsTopSeller Test************
+2017-12-31 10:41:48 INFO  HomePageDisplayVerification:57 - ***********verifyNewsLetterInvitation************
+2017-12-31 10:41:49 INFO  HomePage:210 - [[RemoteWebDriver: chrome on MAC (8214c04044fec3fa763e048f81c25c5f)] -> xpath: .//button[@name='submitNewsletter']]
+2017-12-31 10:41:49 INFO  HomePage:134 - Error message is : Newsletter : This email address is already registered.
+2017-12-31 10:41:49 INFO  HomePageDisplayVerification:62 - ***********Finish verifyNewsLetterInvitation Test************
+2017-12-31 10:41:49 INFO  HomePageDisplayVerification:42 - **********bestSellersButtonTest************
+2017-12-31 10:41:49 INFO  HomePage:142 - bestSellersButton
+2017-12-31 10:41:49 INFO  HomePageDisplayVerification:45 - *********** vrifybestSellersButtonInHomepgaeTest************
+2017-12-31 10:42:08 INFO  HomePageDisplayVerification:106 - ***********FollowUs************
+2017-12-31 10:42:08 INFO  HomePage:237 - [[RemoteWebDriver: chrome on MAC (3fda08acd8a82ffb432fd2b50d3aeca8)] -> xpath: .//*[@id='social_block']/h4['@Follow us']]
+2017-12-31 10:42:08 INFO  HomePageDisplayVerification:110 - ***********Finish FollowUS Test************
+2017-12-31 10:42:51 INFO  HomePageDisplayVerification:106 - ***********FollowUs************
+2017-12-31 10:42:51 INFO  HomePage:237 - [[RemoteWebDriver: chrome on MAC (1f257ad3dee53e417e6dd4aeb874032f)] -> xpath: .//*[@id='social_block']/h4['@Follow us']]
+2017-12-31 10:42:51 INFO  HomePageDisplayVerification:109 - ***********Finish FollowUS Test************
+2017-12-31 10:59:39 INFO  HomePageDisplayVerification:106 - ***********FollowUs************
+2017-12-31 10:59:39 INFO  HomePage:237 - [[RemoteWebDriver: chrome on MAC (af589bfd33d776072e24bc8d1356dc6b)] -> xpath: .//*[@id='social_block']/h4['@Follow us']]
+2017-12-31 10:59:39 INFO  HomePageDisplayVerification:109 - ***********Finish FollowUS Test************
+2017-12-31 11:18:43 INFO  HomePageDisplayVerification:113 - ***********FacebookLogo************
+2017-12-31 11:18:43 INFO  HomePage:245 - [[RemoteWebDriver: chrome on MAC (517e790cb7ef47c9ab5d0b4b47700900)] -> xpath: .//*[@id='social_block']//li[1]['@class="facebook"']]
+2017-12-31 11:18:43 INFO  HomePageDisplayVerification:117 - ***********Finish FacebookLogo************
